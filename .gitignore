@@ -1,0 +1,19 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno y configuraciones locales
+.env
+.settings.php
+
+# Caché y logs
+sites/default/files/*
+sites/default/private/*
+*.log
+
+# Dependencias de Composer
+vendor/
+composer.lock
+
+# Dependencias de Node.js (si usas npm o yarn)
+node_modules/

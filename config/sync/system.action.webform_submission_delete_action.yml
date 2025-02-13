@@ -1,0 +1,13 @@
+uuid: 66f6f8dc-3395-4546-90a7-0fbe9f53da26
+langcode: es
+status: true
+dependencies:
+  module:
+    - webform
+_core:
+  default_config_hash: TBnl4vapW7sy5bRi7TcF-ueJnvz7aZNLif95ifvhfTQ
+id: webform_submission_delete_action
+label: 'Eliminar envío'
+type: webform_submission
+plugin: webform_submission_delete_action
+configuration: {  }
