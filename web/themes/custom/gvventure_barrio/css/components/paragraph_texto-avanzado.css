@@ -1,0 +1,173 @@
+.paragraph--type--texto-avanzado {
+
+    .field--name-field-texto-con-formato-largo {
+        padding: 5rem 0;
+
+        p {
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.5625rem;
+            color: var(--artemis-slate-grey);
+
+            strong {
+                font-weight: 500;
+            }
+
+            a {
+                text-decoration: underline;
+            }
+        }
+
+        ul,
+        ol {
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.5625rem;
+            color: var(--artemis-slate-grey);
+
+            li::marker {
+                color: var(--artemis-slate-grey);
+            }
+        }
+
+        ol {
+            padding-left: 1rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+            color: var(--artemis-slate-grey);
+        }
+
+        h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.5625rem;
+            color: var(--artemis-slate-grey);
+        }
+
+        .table-responsive {
+            margin: 0;
+        }
+
+        .table-standard {
+            table {
+                width: 100%;
+                min-width: 700px;
+                border: 1px solid var(--artemis-steel-blue);
+
+                tr {
+                    height: 50px;
+                    border-bottom: 1px solid var(--artemis-steel-blue);
+                    background: var(--artemis-white);
+
+                    td {
+                        padding: 0 .5625rem;
+                        text-align: left;
+                        vertical-align: middle;
+                        border: 0;
+                        font-weight: 300;
+                    }
+
+                    td:first-child {
+                        font-weight: 500;
+                    }
+                }
+
+                tr:first-child {
+                    background-color: var(--artemis-steel-blue);
+                    text-transform: uppercase;
+                    color: var(--artemis-white);
+                    font-weight: 300;
+
+                    p {
+                        font-weight: 500;
+                        color: var(--artemis-deep-brown);
+                    }
+
+                    td {
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+
+        .table-cards {
+            border-collapse: separate;
+            border-spacing: 1.5rem;
+            width: 100%;
+            display: grid;
+
+            tr {
+                background: transparent;
+            }
+
+            td {
+                width: 50%;
+                padding: 1.5rem 2rem;
+                background: var(--artemis-soft-cream);
+                border-radius: .5rem;
+
+                p {
+                    color: var(--artemis-deep-brown);
+                    font-size: 1.25rem;
+                    line-height: 1.5rem;
+
+                    strong {
+                        font-weight: 600;
+                    }
+                }
+
+                p.text__title {
+                    color: var(--artemis-deep-brown);
+                    font-weight: 500;
+                    font-size: 1.25rem;
+                    line-height: 1.5rem;
+                    margin-bottom: .75rem;
+                }
+
+                p.text__document,
+                p.text__address {
+                    margin-bottom: .75rem;
+                }
+
+                p.text__register {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .paragraph--type--texto-avanzado {
+        .field--name-field-texto-con-formato-largo {
+            margin-top: 0;
+            padding: 2.5rem 0;
+            .table-cards {
+                tr {
+                    width: 100%;
+                    display: block;
+                    padding-left: 0;
+                    padding-right: 0;
+                    border-bottom: 0rem;
+                }
+
+                td {
+                    width: 100%;
+                    display: inline-block;
+                    margin-bottom: 1.25rem;
+
+                    p {
+                        font-size: 1rem;
+                        line-height: 1.5625rem;
+                    }
+
+                }
+            }
+
+        }
+    }
+}

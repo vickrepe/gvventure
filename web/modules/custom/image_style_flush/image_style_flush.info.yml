@@ -1,0 +1,7 @@
+name: 'Image Style Flush'
+type: module
+description: 'Module to clean image styles from a form.'
+core_version_requirement: ^11
+package: Custom
+dependencies:
+  - drupal:image

@@ -1,0 +1,61 @@
+.form-type-textfield,
+.form-type-email  {
+    position: relative;
+}
+
+.input-info {
+    width: 16px;
+    height: 16px;
+    display: block;
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+}
+
+.input-info.show-tooltip + small {
+    display: block;
+}
+
+.input-info__icon {
+    vertical-align: initial;
+}
+
+.form-type-textfield small,
+.form-type-email small {
+    display: none;
+    right: 2px;
+    background-color: var(--artemis-white);
+    color: var( --artemis-burning-trail) !important;
+    border-radius: 6px;
+    padding: 10px 8px;
+    position: absolute;
+    border: 1px solid;
+    width: 280px;
+    z-index: 1;
+}
+
+.form-type-textfield small::before,
+.form-type-email small::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent var( --artemis-burning-trail) transparent;
+}
+
+.form-type-textfield small::after,
+.form-type-email small::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -9px;
+    right: 10px;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent var( --artemis-white) transparent;
+  }

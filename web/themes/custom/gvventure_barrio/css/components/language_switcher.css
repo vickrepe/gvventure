@@ -1,0 +1,49 @@
+#languageDropdown {
+    margin-left: 1.75rem;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    color: var(--artemis-steel-blue);
+
+    &::before {
+        content: "";
+        display: inline-block;
+        margin-right: .5rem;
+        width: 1rem;
+        height: .9375rem;
+        background-image: url("data:image/svg+xml,%3Csvg width='16' height='15' viewBox='0 0 16 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.99992 0.833008C9.66744 2.65858 10.6151 5.0277 10.6666 7.49967C10.6151 9.97165 9.66744 12.3408 7.99992 14.1663M7.99992 0.833008C6.3324 2.65858 5.38475 5.0277 5.33325 7.49967C5.38475 9.97165 6.3324 12.3408 7.99992 14.1663M7.99992 0.833008C4.31802 0.833008 1.33325 3.81778 1.33325 7.49967C1.33325 11.1816 4.31802 14.1663 7.99992 14.1663M7.99992 0.833008C11.6818 0.833008 14.6666 3.81778 14.6666 7.49967C14.6666 11.1816 11.6818 14.1663 7.99992 14.1663M1.6666 5.49967H14.3333M1.66659 9.49967H14.3333' stroke='%232A7193' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    }
+
+}
+
+.block-language {
+
+    .dropdown-menu {
+        border: none;
+        box-shadow: 0px 3px 5.5px 0px rgba(0, 0, 0, 0.15);
+        padding: 0;
+        margin-top: 0.5rem;
+        padding: 0 1.5rem;
+    }
+
+    .dropdown-item {
+        padding: 1.219rem 1.594rem;
+        border-bottom: 1px solid var(--artemis-pale-lilac);
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: var(--artemis-deep-brown);
+
+            &:hover, &.is-active {
+                color: var(--artemis-steel-blue);
+                font-weight: 600;
+            }
+        }
+
+        &:hover, &:active {
+            background-color: transparent;
+        }
+    }
+}

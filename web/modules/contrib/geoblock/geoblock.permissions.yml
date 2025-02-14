@@ -1,0 +1,3 @@
+administer geoblock:
+  title: 'Administer Geoblock'
+  description: 'Configure geographical restrictions.'

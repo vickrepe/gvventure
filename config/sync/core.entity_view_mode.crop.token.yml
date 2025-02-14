@@ -1,0 +1,11 @@
+uuid: d2c185cb-7a5c-42d1-a3ab-d0e85c65d9be
+langcode: es
+status: true
+dependencies:
+  module:
+    - crop
+id: crop.token
+label: Comodín
+description: null
+targetEntityType: crop
+cache: true

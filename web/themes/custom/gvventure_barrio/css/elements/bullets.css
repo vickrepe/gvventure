@@ -1,0 +1,20 @@
+.glide {
+    .glide__bullets {
+        bottom: 1.1875rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .glide__bullet {
+        background-color: rgba(42, 113, 147, 0.50);
+        width: .25rem;
+        height: .25rem;
+    }
+
+    .glide__bullet--active,
+    .glide__bullet:hover,
+    .glide__bullet:focus {
+        border: 0.25rem solid var(--artemis-steel-blue);
+        background-color: var(--artemis-steel-blue);
+    }
+}

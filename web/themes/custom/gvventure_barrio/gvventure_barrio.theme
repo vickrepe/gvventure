@@ -1,0 +1,106 @@
+<?php
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\taxonomy\Entity\Term;
+use Drupal\Core\Url;
+
+
+/**
+ * Implements hook_form_system_theme_settings_alter() for settings form.
+ *
+ * Replace Barrio setting options with subtheme ones.
+ *
+ * Example on how to alter theme settings form
+ */
+function gvventure_barrio_form_system_theme_settings_alter(&$form, FormStateInterface $form_state) {
+  $form['components']['navbar']['bootstrap_barrio_navbar_top_background']['#options'] = [
+    'bg-primary' => t('Primary'),
+    'bg-secondary' => t('Secondary'),
+    'bg-light' => t('Light'),
+    'bg-dark' => t('Dark'),
+    'bg-white' => t('White'),
+    'bg-transparent' => t('Transparent'),
+  ];
+  $form['components']['navbar']['bootstrap_barrio_navbar_background']['#options'] = [
+    'bg-primary' => t('Primary'),
+    'bg-secondary' => t('Secondary'),
+    'bg-light' => t('Light'),
+    'bg-dark' => t('Dark'),
+    'bg-white' => t('White'),
+    'bg-transparent' => t('Transparent'),
+  ];
+}
+
+function gvventure_barrio_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($_POST) {
+    $form['#attributes']['class'][] = 'form_was_sent';
+  }
+}
+
+/**
+ * Implements hook_theme_preprocess().
+ */
+function gvventure_barrio_preprocess(&$variables) {
+  $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  $variables['idioma'] = $language;
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() para modificar las sugerencias de plantilla de vistas.
+ */
+function gvventure_barrio_theme_suggestions_views_view_alter(array &$suggestions, array $variables) {
+  // Obtén el nombre de la vista.
+  $view_id = $variables['view']->id();
+
+  // Agrega una sugerencia personalizada basada en el nombre de la vista.
+  $suggestions[] = 'views_view__' . $view_id . '__custom_suggestions';
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() para modificar las sugerencias de plantilla de vistas.
+ */
+function gvventure_barrio_theme_suggestions_views_view_field_alter(array &$suggestions, array $variables) {
+  // Obtén el nombre de la vista.
+  $view_id = $variables['view']->id();
+
+  // Agrega una sugerencia personalizada basada en el nombre de la vista.
+  $suggestions[] = 'views_view_field_' . $variables['field']->field . '__custom_suggestions';
+}
+
+
+/**
+* Implements hook_preprocess_links__language_block().
+*/
+function gvventure_barrio_preprocess_links__language_block(&$variables) {
+$variables['current_language_code'] = \Drupal::languageManager()->getCurrentLanguage()->getId();
+
+foreach ($variables['links'] as $i => $link) {
+  $language = \Drupal::languageManager()->getLanguage($i);
+
+  if ($language) {
+    $variables['links'][$i]['link']['#title']  = $language->getName();
+  }
+
+}
+}
+
+/**
+* Implements hook_preprocess_breadcrumb().
+*/
+function gvventure_barrio_preprocess_breadcrumb(&$variables) {
+if (!isset($variables['breadcrumb']) || empty($variables['breadcrumb'])) {
+  return;
+}
+
+foreach ($variables['breadcrumb'] as $key => &$breadcrumb) {
+  if (empty($breadcrumb['text'])) {
+    unset($variables['breadcrumb'][$key]);
+  }
+}
+}
+
+/**
+* Implements hook_preprocess_HOOK().
+*/
+function gvventure_barrio_preprocess_node(array &$variables) {
+$variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
+}

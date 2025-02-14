@@ -1,0 +1,13 @@
+_core:
+  default_config_hash: lMHR9lH6ZoSNP2x8DK_doBdowZVi5gPhDFyX9ta8ye8
+applicable_methods:
+  - CONNECT
+  - DELETE
+  - PATCH
+  - POST
+  - PUT
+data_source: ''
+enable_logging: false
+require_domestic_use: false
+restriction_country_codes: {  }
+restriction_type: ''

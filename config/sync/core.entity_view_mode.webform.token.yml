@@ -1,0 +1,11 @@
+uuid: 53607d75-f13d-4998-9722-44208aa11503
+langcode: es
+status: true
+dependencies:
+  module:
+    - webform
+id: webform.token
+label: Comodín
+description: null
+targetEntityType: webform
+cache: true

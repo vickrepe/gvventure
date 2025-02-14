@@ -1,0 +1,11 @@
+uuid: 9135d48b-5e79-4929-a698-b3168492053f
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+id: media.token
+label: Comodín
+description: null
+targetEntityType: media
+cache: true

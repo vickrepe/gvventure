@@ -1,0 +1,28 @@
+geoblock.settings:
+  type: config_object
+  label: 'Geoblock settings'
+  mapping:
+    applicable_methods:
+      type: sequence
+      label: 'Applicable HTTP methods'
+      sequence:
+        type: string
+        label: 'HTTP method'
+    data_source:
+      type: string
+      label: 'Data source'
+    enable_logging:
+      type: boolean
+      label: 'Enable logging'
+    require_domestic_use:
+      type: boolean
+      label: 'Require domestic use'
+    restriction_country_codes:
+      type: sequence
+      label: 'Restriction countries'
+      sequence:
+        type: string
+        label: 'Country code'
+    restriction_type:
+      type: string
+      label: 'Restriction type'

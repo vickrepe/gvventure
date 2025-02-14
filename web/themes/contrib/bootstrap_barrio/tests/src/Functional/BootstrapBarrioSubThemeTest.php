@@ -13,6 +13,6 @@ class BootstrapBarrioSubThemeTest extends BootstrapBarrioTest {
   /**
    * {@inheritdoc}
    */
-  protected $defaultTheme = 'bootstrap_barrio_subtheme';
+  protected $defaultTheme = 'gvventure';
 
 }

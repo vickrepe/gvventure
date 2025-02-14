@@ -1,0 +1,29 @@
+uuid: 19f4eda3-b32e-4d6c-9ebe-543f5ffbab73
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.home.field_text_area
+    - node.type.home
+  module:
+    - text
+    - user
+id: node.home.default
+targetEntityType: node
+bundle: home
+mode: default
+content:
+  field_text_area:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

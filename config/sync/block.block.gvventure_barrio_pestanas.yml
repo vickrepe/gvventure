@@ -1,0 +1,20 @@
+uuid: 0e218d71-3fb8-40bd-906e-16043dde8153
+langcode: es
+status: true
+dependencies:
+  theme:
+    - gvventure_barrio
+id: gvventure_barrio_pestanas
+theme: gvventure_barrio
+region: content
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Pestañas
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

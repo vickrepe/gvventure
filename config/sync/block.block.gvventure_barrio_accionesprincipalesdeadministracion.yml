@@ -1,0 +1,18 @@
+uuid: 8fbd7ddc-60c8-417a-afcb-b85d3a742d0b
+langcode: es
+status: true
+dependencies:
+  theme:
+    - gvventure_barrio
+id: gvventure_barrio_accionesprincipalesdeadministracion
+theme: gvventure_barrio
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

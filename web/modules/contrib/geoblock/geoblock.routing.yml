@@ -1,0 +1,7 @@
+geoblock.settings:
+  path: '/admin/config/geoblock'
+  defaults:
+    _form: '\Drupal\geoblock\Form\SettingsForm'
+    _title: 'Geoblock settings'
+  requirements:
+    _permission: 'administer geoblock'

@@ -1,0 +1,172 @@
+.node--type-blog {
+    .breadcrumb {
+        margin-top: 1rem;
+    }
+
+    .container__body {
+        margin: 3rem 0 5rem 0;
+    }
+
+    .container__information {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .text__tags {
+            color: var(--artemis-steel-blue);
+            font-size: .75rem;
+            line-height: .875rem;
+        }
+
+        .field--name-title {
+            color: var(--artemis-deep-charcoal);
+            font-weight: 500;
+            font-size: 2.5rem;
+            line-height: 2.75rem;
+        }
+    }
+
+    h3,
+    h4 {
+        font-size: 1.75rem;
+        font-weight: 600;
+        line-height: 1.875rem;
+        color: var(--artemis-deep-charcoal);
+    }
+
+    p {
+        font-size: 1.125rem;
+        font-weight: 300;
+        line-height: 1.6875rem;
+        color: var(--artemis-slate-grey);
+
+        strong {
+            font-weight: 500;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    .container__relation-articles {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .text__tags {
+            color: var(--artemis-steel-blue);
+            font-size: .75rem;
+            line-height: .875rem;
+        }
+
+        .text__title {
+            color: #0F1010;
+            font-weight: 600;
+            font-size: 1.8125rem;
+            line-height: 1.875rem;
+        }
+
+        .container__blog {
+            position: relative;
+            border: 1px solid var(--artemis-soft-cloud);
+            border-radius: .5rem;
+            background-color: var(--artemis-white);
+        }
+
+        .view-blog.view-id-blog {
+
+            .views-field-created {
+                display: block;
+                position: absolute;
+                top: 8.125rem;
+                right: 1.5rem;
+                color: var(--artemis-white);
+                font-size: .75rem;
+                letter-spacing: .125rem;
+            }
+
+            .views-field-field-image img {
+                width: 100%;
+                max-width: 100%;
+                border-top-left-radius: .5rem;
+                border-top-right-radius: .5rem;
+            }
+
+            .views-field-field-categoria {
+                padding: 1.5rem 1.5rem 1rem 1.5rem;
+                color: var(--artemis-steel-blue);
+                font-size: .75rem;
+                text-transform: uppercase;
+                line-height: 1rem;
+            }
+
+            .views-field-title {
+                padding: 0 1.5rem 1rem 1.5rem;
+
+                a {
+                    color: var(--artemis-dark-stone);
+                    font-weight: 600;
+                    font-size: 1.25rem;
+                    line-height: 1.375rem;
+                }
+            }
+
+            .views-field-body {
+                padding: 0 1.5rem 1.5rem 1.5rem;
+
+                p {
+                    color: var(--artemis-dark-stone);
+                    margin: 0;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                }
+            }
+
+            .views-field-view-node {
+                padding: 0 1.5rem 1.5rem 1.5rem;
+
+                a {
+                    color: var(--artemis-steel-blue);
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    background-image: url("data:image/svg+xml,%3Csvg width='16' height='12' viewBox='0 0 16 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.15 7.0005H1C0.716667 7.0005 0.479167 6.90467 0.2875 6.713C0.0958333 6.52133 0 6.28383 0 6.0005C0 5.71717 0.0958333 5.47967 0.2875 5.288C0.479167 5.09633 0.716667 5.0005 1 5.0005H12.15L9.3 2.1505C9.1 1.9505 9.00417 1.71717 9.0125 1.4505C9.02083 1.18383 9.11667 0.9505 9.3 0.7505C9.5 0.5505 9.7375 0.446333 10.0125 0.438C10.2875 0.429667 10.525 0.5255 10.725 0.7255L15.3 5.3005C15.4 5.4005 15.4708 5.50883 15.5125 5.6255C15.5542 5.74217 15.575 5.86717 15.575 6.0005C15.575 6.13383 15.5542 6.25883 15.5125 6.3755C15.4708 6.49217 15.4 6.6005 15.3 6.7005L10.725 11.2755C10.525 11.4755 10.2875 11.5713 10.0125 11.563C9.7375 11.5547 9.5 11.4505 9.3 11.2505C9.11667 11.0505 9.02083 10.8172 9.0125 10.5505C9.00417 10.2838 9.1 10.0505 9.3 9.8505L12.15 7.0005Z' fill='%232A7193'/%3E%3C/svg%3E%0A");
+                    background-repeat: no-repeat;
+                    background-position: right 5px center;
+                    padding-right: 2.1875rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .node--type-blog {
+        .container__body {
+            margin: .5rem 0 2.5rem 0;
+        }
+
+        .container__relation-articles {
+            margin-top: 40px;
+
+            .text__tags {
+                display: none;
+            }
+        }
+
+        .container__information {    
+            .field--name-title {
+                font-size: 1.75rem;
+                line-height: 1.875rem;
+            }
+        }
+
+        h3,
+        h4 {
+            font-size: 1.375rem;
+            font-weight: 600;
+            line-height: 1.5rem;
+            color: var(--artemis-deep-charcoal);
+        }
+    }
+}

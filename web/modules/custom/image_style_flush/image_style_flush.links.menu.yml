@@ -1,0 +1,6 @@
+image_style_flush.admin:
+  title: 'Clear image styles'
+  description: 'Module to clean image styles from the administrator.'
+  parent: system.admin_config_media
+  route_name: image_style_flush.form
+  weight: 10

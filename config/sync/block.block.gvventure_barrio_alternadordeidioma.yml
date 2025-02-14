@@ -1,0 +1,20 @@
+uuid: 1602521a-fc31-40fd-a680-6f678cf9a492
+langcode: es
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - gvventure_barrio
+id: gvventure_barrio_alternadordeidioma
+theme: gvventure_barrio
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Alternador de idioma'
+  label_display: '0'
+  provider: language
+visibility: {  }

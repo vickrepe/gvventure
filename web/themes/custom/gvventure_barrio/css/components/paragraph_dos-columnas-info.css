@@ -1,0 +1,136 @@
+.kmm-two-cols {
+
+    .kmm-two-cols__color {
+        display: flex;
+        margin: 5rem 0;
+        border-radius: .5rem;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .kmm-two-cols__info {
+        flex: 1;
+        padding: 5rem 4rem;
+    }
+
+    .kmm-two-cols__image {
+        flex: 1;
+        height: auto;
+    }
+
+    .field--name-field-dos-columnas-etiqueta {
+        font-weight: 400;
+        font-size: .75rem;
+        line-height: .9rem;
+        color: var(--artemis-steel-blue);
+        margin-bottom: 1rem;
+    }
+
+    .field--name-field-dos-columnas-titulo {
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: var(--artemis-deep-charcoal);
+        line-height: 2.75rem;
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            color: var(--artemis-deep-charcoal);
+            line-height: 2.75rem;
+        }
+    }
+
+    .field--name-field-dos-columnas-texto {
+        font-size: 1.125rem;
+        font-weight: 400;
+        color: var(--artemis-slate-grey);
+        line-height: 1.6875rem;
+        padding-top: 1rem;
+    }
+
+    .field--name-field-dos-columnas-enlace {
+        margin-top: 1.5rem;
+        &::after {
+            content: '';
+            background-image: url("data:image/svg+xml,%3Csvg width='16' height='12' viewBox='0 0 16 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.2604 7.0005H1.11035C0.827018 7.0005 0.589518 6.90467 0.397852 6.713C0.206185 6.52133 0.110352 6.28383 0.110352 6.0005C0.110352 5.71717 0.206185 5.47967 0.397852 5.288C0.589518 5.09633 0.827018 5.0005 1.11035 5.0005H12.2604L9.41035 2.1505C9.21035 1.9505 9.11452 1.71717 9.12285 1.4505C9.13119 1.18383 9.22702 0.9505 9.41035 0.7505C9.61035 0.5505 9.84785 0.446333 10.1229 0.438C10.3979 0.429667 10.6354 0.5255 10.8354 0.7255L15.4104 5.3005C15.5104 5.4005 15.5812 5.50883 15.6229 5.6255C15.6645 5.74217 15.6854 5.86717 15.6854 6.0005C15.6854 6.13383 15.6645 6.25883 15.6229 6.3755C15.5812 6.49217 15.5104 6.6005 15.4104 6.7005L10.8354 11.2755C10.6354 11.4755 10.3979 11.5713 10.1229 11.563C9.84785 11.5547 9.61035 11.4505 9.41035 11.2505C9.22702 11.0505 9.13119 10.8172 9.12285 10.5505C9.11452 10.2838 9.21035 10.0505 9.41035 9.8505L12.2604 7.0005Z' fill='white'/%3E%3C/svg%3E%0A");
+            width: 1rem;
+            height: .75rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: inline-flex;
+            margin-left: .75rem;
+        }
+    }
+
+    .btn:hover {
+        background: var(--artemis-steel-blue);
+      }
+
+    .btn-check:active + .btn,
+    .btn-check:checked + .btn,
+    .btn.active,
+    .btn.show,
+    .btn:active {
+        background: var(--artemis-steel-blue);
+    }
+
+    .field--name-field-dos-columnas-imagen {
+        margin: 0;
+        height: 100%;
+
+        div {
+            height: 100%;
+        }
+    }
+
+    .field--name-field-dos-columnas-imagen
+    {
+        width: 100%;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .kmm-two-cols {
+
+        .kmm-two-cols__color {
+            flex-direction: column;
+            margin: 1.5rem 0;
+        }
+
+        .kmm-two-cols__info {
+            padding: 2.5rem 1rem;
+        }
+
+        .field--name-field-dos-columnas-titulo {
+            font-size: 1.75rem;
+            line-height: 1.925rem;
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: 1.75rem;
+                line-height: 1.925rem;
+            }
+        }
+
+        .field--name-field-dos-columnas-enlace {
+            width: 100%;
+        }
+
+    }
+}

@@ -1,0 +1,224 @@
+.paragraph--type--formulario-imagen {
+    .kmm-container {
+        margin: 5rem auto;
+    }
+
+    .container__wrapper {
+        display: flex;
+        gap: 3.5rem;
+        margin: 0 auto;
+        flex-wrap: wrap;
+
+        .image {
+            flex: 0 1 22.6875rem;
+            max-width: 22.6875rem;
+            margin-top: 3.75rem;
+
+            .field--type-image {
+                width: 100%;
+                height: 100%;
+            }
+
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                margin-bottom: 0;
+            }
+        }
+
+        .form {
+            flex: 1 1 46.875rem;
+            max-width: calc(100% - 22.6875rem - 3.5rem);
+
+            form {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                column-gap: 1rem;
+            }
+
+            form.form_was_sent {
+                grid-template-columns: 1fr;
+            }
+
+            .webform-actions {
+                grid-column: span 12;
+                margin-bottom: 0px !important;
+            }
+
+            .form-item-descripcion-de-la-consulta {
+                grid-column: span 12;
+            }
+
+            .form-type-processed-text {
+                grid-column: span 12;
+
+                h2 {
+                    font-size: 1.375rem;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+            }
+
+            .form-item-nombre,
+            .form-item-apellidos,
+            .form-item-e-mail {
+                grid-column: span 6;
+            }
+
+            .form-item-prefijo {
+                grid-column: span 1;
+                flex: 0 0 4rem;
+                max-width: 4rem;
+
+                input[type=text] {
+                    padding: .875rem 1rem;
+                    width: 4rem;
+                }
+            }
+
+            .form-item-telefono {
+                grid-column: span 5;
+            }
+
+            input[type=text] {
+                padding: .875rem 1.5rem;
+                border-radius: 6.25rem;
+                line-height: 1.125rem;
+                font-weight: 400;
+            }
+
+            textarea {
+                padding: .875rem 1.5rem;
+                border-radius: 1.125rem;
+                font-weight: 400;
+                resize: none;
+            }
+
+            input::placeholder,
+            textarea::placeholder {
+                color: var(--artemis-silver-grey);
+            }
+
+            input:focus::placeholder,
+            textarea:focus::placeholder {
+                color: var(--artemis-silver-grey);
+            }
+
+            .webform-confirmation {
+                .webform-confirmation__message {
+                    h2 {
+                        font-size: 2.5rem;
+                        line-height: 2.75rem;
+                        font-weight: 500;
+                        color: var(--artemis-deep-charcoal);
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-size: 1.125rem;
+                        font-weight: 400;
+                        line-height: 1.6875rem;
+                        color: var(--artemis-slate-grey);
+                    }
+                }
+
+                .webform-confirmation__back {
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 30px;
+
+                    a {
+                        font-size: 1rem;
+                        line-height: 1.5rem;
+                        font-weight: 400;
+                        color: var(--artemis-steel-blue);
+                        text-decoration: none;
+                        width: 100%;
+                        justify-content: end;
+                        display: flex;
+                        align-items: center;
+                        gap: .5rem;
+
+                        &::after {
+                            content: '';
+                            display: block;
+                            height: .75rem;
+                            width: 1rem;
+                            background-image: url("data:image/svg+xml,%3Csvg width='16' height='12' viewBox='0 0 16 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 12L8.6 10.55L12.15 7H0V5H12.15L8.6 1.45L10 0L16 6L10 12Z' fill='%232A7193'/%3E%3C/svg%3E%0A");
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    &.image-right {
+        .container__wrapper {
+            flex-direction: row-reverse;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .paragraph--type--formulario-imagen {
+        .container__wrapper {
+            flex-wrap: nowrap;
+            flex-direction: row;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .paragraph--type--formulario-imagen {
+        .kmm-container {
+            margin: 2.5rem auto;
+            padding: 0 1rem;
+        }
+
+        .container__wrapper {
+            flex-direction: column;
+            gap: 1rem;
+
+            .image {
+                order: 2;
+                flex: 0 0 auto;
+                max-width: 100%;
+                width: 100%;
+                margin-top: 24px;
+            }
+
+            .form {
+                order: 1;
+                flex: 0 0 auto;
+                max-width: 100%;
+                width: 100%;
+
+                .form-item-nombre,
+                .form-item-apellidos,
+                .form-item-e-mail {
+                    grid-column: span 12;
+                }
+
+                .form-item-telefono {
+                    grid-column: span 11;
+                }
+            }
+        }
+
+        &.image-left {
+            .container__wrapper {
+                flex-direction: column-reverse;
+            }
+        }
+
+        &.image-right {
+            .container__wrapper {
+                flex-direction: column;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,11 @@
+name: 'Geoblock Test'
+type: module
+description: 'A module to facilitate testing Geoblock.'
+package: Testing
+dependencies:
+  - 'geoblock:geoblock'
+
+# Information added by Drupal.org packaging script on 2025-02-10
+version: '1.1.2'
+project: 'geoblock'
+datestamp: 1739202741

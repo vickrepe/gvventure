@@ -1,0 +1,6 @@
+applicable_methods: ['CONNECT', 'DELETE', 'PATCH', 'POST', 'PUT']
+data_source: ''
+enable_logging: false
+require_domestic_use: false
+restriction_country_codes: []
+restriction_type: ''

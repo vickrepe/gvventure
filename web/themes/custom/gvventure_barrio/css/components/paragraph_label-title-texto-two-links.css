@@ -1,0 +1,102 @@
+.paragraph--type--label-title-texto-two-links {
+    .box-texto-enlaces {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        gap: 1rem;
+
+        .field--name-field-label {
+            text-transform: uppercase;
+            color: var(--artemis-steel-blue);
+            font-size: .75rem;
+            line-height: .875rem;
+            font-weight: 400;
+        }
+
+        .field--name-field-title {
+            color: var(--artemis-deep-charcoal);
+            font-size: 2.5rem;
+            font-weight: 500;
+            line-height: 2.75rem;
+            text-align: center;
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                color: var(--artemis-deep-charcoal);
+                font-size: 2.5rem;
+                font-weight: 500;
+                line-height: 2.75rem;
+                text-align: center;
+            }
+        }
+
+        .field--name-field-text p {
+            color: var(--artemis-slate-grey);
+            font-size: 1.125rem;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .multiple-enlaces {
+            .field--name-field-enlaces {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+
+                a {
+                    background-color: var(--artemis-steel-blue);
+                    color: var(--artemis-white);
+                    padding: .75rem 4.375rem;
+                    border-radius: 6.25rem;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    width: 100%;
+                    display: block;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .paragraph--type--label-title-texto-two-links {
+        .box-texto-enlaces {
+            padding-top: 2.5rem;
+            padding-bottom: 2.5rem;
+            align-items: baseline;
+
+            .field--name-field-title {
+                font-size: 1.75rem;
+                line-height: 1.875rem;
+                text-align: left;
+            }
+
+            .field--name-field-text p {
+                text-align: left;
+            }
+
+            .multiple-enlaces {
+                width: 100%;
+
+                .field--name-field-enlaces {
+                    flex-direction: column;
+                    width: 100%;
+
+                    .field__item {
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

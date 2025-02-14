@@ -1,0 +1,32 @@
+:root {
+  /**Colors**/
+  /*Paleta de colores*/
+  --artemis-deep-brown: #331810;
+  --artemis-steel-blue: #2A7193;
+  --artemis-warm-gray: #6E635D;
+  --artemis-soft-cream: #EDE0CE;
+  --artemis-pale-lilac: #EFEDF2;
+
+  /*Backgrounds*/
+  --artemis-blush-tint: #FCF4F2;
+  --artemis-ivory-blush: #FCF4F0;
+  --artemis-light-sand:  #FAF8F5;
+  --artemis-soft-mist: #F9F8FA;
+  --artemis-pale-sky: #F4F7F9;
+
+  /*Grayscale*/
+  --artemis-black: #000000;
+  --artemis-deep-charcoal: #0F1010;
+  --artemis-dark-stone: #404345;
+  --artemis-slate-grey: #585D5F;
+  --artemis-smoky-grey: #71777A;
+  --artemis-muted-steel: #8B9093;
+  --artemis-light-silver: #BFC3C4;
+  --artemis-soft-cloud: #DADCDD;
+  --artemis-almost-white: #F4F5F5;
+  --artemis-white: #ffffff;
+
+  --artemis-silver-grey: #A5A9AC;
+  --artemis-light-carbon: #1F262B;
+  --artemis-cod-grey: #2b2f32;
+}

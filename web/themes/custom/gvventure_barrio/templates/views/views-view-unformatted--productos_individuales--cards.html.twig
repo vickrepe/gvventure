@@ -1,0 +1,87 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+{% if title %}
+  <h3>{{ title }}</h3>
+{% endif %}
+
+<div class="glide glide-main">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      {% for row in rows %}
+        <li class="glide__slide">
+          {% set entity = row.content['#row']._entity %}
+          {% set carousel_id = 'carousel-' ~ loop.index %}
+
+          {% if entity and entity.field_imagen is not empty %}
+            <div id="{{ carousel_id }}" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                {% for media in entity.field_imagen %}
+                  <button
+                    type="button"
+                    data-bs-target="#{{ carousel_id }}"
+                    data-bs-slide-to="{{ loop.index0 }}"
+                    class="{% if loop.first %}active{% endif %}"
+                    aria-current="{% if loop.first %}true{% endif %}"
+                    aria-label="Slide {{ loop.index }}">
+                  </button>
+                {% endfor %}
+              </div>
+              <div class="carousel-inner">
+                {% for media in entity.field_imagen %}
+                  {% set media_entity = media.entity %}
+                  {% if media_entity.field_media_image is not empty %}
+                    {% for image in media_entity.field_media_image %}
+                      <div class="carousel-item {% if loop.first %}active{% endif %}">
+                        <img
+                          src="{{ file_url(image.entity.uri.value) }}"
+                          class="d-block w-100"
+                          alt="{{ image.entity.getName() }}">
+                      </div>
+                    {% endfor %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#{{ carousel_id }}" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#{{ carousel_id }}" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          {% endif %}
+
+          {{ row.content }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">{{"<"}}</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">{{">"}}</button>
+  </div>
+  <div class="glide__bullets" data-glide-el="controls[nav]">
+    <button class="glide__bullet" data-glide-dir="=0"></button>
+    <button class="glide__bullet" data-glide-dir="=1"></button>
+    <button class="glide__bullet" data-glide-dir="=2"></button>
+  </div>
+</div>
+
+
+

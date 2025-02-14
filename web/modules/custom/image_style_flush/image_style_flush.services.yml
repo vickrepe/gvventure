@@ -1,0 +1,5 @@
+services:
+  Drupal\image_style_flush\Form\ImageStyleFlushForm:
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: form }

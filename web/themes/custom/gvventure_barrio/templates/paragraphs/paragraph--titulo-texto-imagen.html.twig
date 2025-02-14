@@ -1,0 +1,62 @@
+{#
+/**
+ * @file
+ * Theme override implementation to display the Image Text paragraph.
+ */
+#}
+{%
+  set classes = [
+    'image-text',
+  ]
+%}
+{% set col_1_attributes = create_attribute() %}
+{%
+  set col_1_classes = [
+    'col-media',
+    paragraph.field_image_position.value == 'right' or paragraph.field_image_position.value == 'left' ? 'col-md-6 col-lg-5',
+    paragraph.field_image_position.value == 'above' or paragraph.field_image_position.value== 'bellow' ? 'col-md-12 col-lg-12',
+  ]
+%}
+
+{% set col_2_attributes = create_attribute() %}
+{%
+  set col_2_classes = [
+    'col-text',
+    paragraph.field_image_position.value == 'above' or paragraph.field_image_position.value == 'bellow' ? 'col-md-12 col-lg-12',
+    paragraph.field_image_position.value == 'right' or paragraph.field_image_position.value == 'left' ? 'col-md-6 col-lg-5',
+  ]
+%}
+
+{{ attach_library('bootstrap_barrio_subtheme/image-text') }}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+  {% if content.field_title|render|trim is not empty %}
+    <h2 class="block-title">{{ content.field_title }}</h2>
+  {% endif %}
+    {% block content %}
+      <div class="container-xxl">
+        <div class="row">
+          {# COLUMNA 1 #}
+          <div{{ col_1_attributes.addClass(col_1_classes) }}>
+            {% if paragraph.field_image_position.value == 'left' or paragraph.field_image_position.value == 'above'  %}
+              {{ content.field_media }}
+            {% else %}
+              {{ content.field_text }}
+            {% endif %}
+          </div>
+          {# COLUMNA 2 #}
+          <div{{ col_2_attributes.addClass(col_2_classes) }}>
+          {% if paragraph.field_image_position.value == 'left' or paragraph.field_image_position.value == 'above' %}
+            {% if content.field_text|render|trim is not empty %}
+              {{ content.field_text }}
+            {% endif %}
+          {% else %}
+            {{ content.field_media }}
+          {% endif %}
+
+          </div>
+        </div>
+      </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}

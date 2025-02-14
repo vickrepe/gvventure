@@ -1,0 +1,24 @@
+uuid: 0d931ea2-978d-4de1-8d2f-0f5d76081fb9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_area
+    - filter.format.full_html
+    - node.type.home
+  module:
+    - text
+id: node.home.field_text_area
+field_name: field_text_area
+entity_type: node
+bundle: home
+label: 'Text Area'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

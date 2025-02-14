@@ -1,0 +1,11 @@
+.kmm-container {
+    max-width: var(--breakpoint-extra-large);
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+@media (max-width: 992px) {
+    .kmm-container {
+       padding: 0;
+    }
+}

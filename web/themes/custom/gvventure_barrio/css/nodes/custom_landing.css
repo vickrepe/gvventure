@@ -1,0 +1,76 @@
+.landing_header_content {
+    grid-row-gap: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.cremation__wrapper .node__content {
+    background: var(--artemis-springtime-rain);
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+}
+
+.cremation__wrapper .node__content .text__information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cremation__wrapper .node__content .field--name-field-texto-de-cabecera {
+    color: var(--artemis-sodalite-blue);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.cremation__wrapper .node__content .text__information .field--name-field-telefono-landing {
+    margin-top: 5px;
+    padding-top: 23px;
+    width: max-content;
+}
+
+.cremation__wrapper .node__content .text__information .field--name-field-telefono-landing a {
+    background-color: var(--artemis-burning-trail);
+    font-weight: 700;
+    border: none;
+    color: white;
+    padding: 12px 30px 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.cremation__wrapper .node__content .webform-submission-form .webform-button--submit {
+    margin: 0;
+}
+
+.cremation__wrapper .landing_body_content .text_header_map .field--name-field-texto-de-cabecera {
+    color: var(--artemis-sodalite-blue);
+    font-weight: 700;
+    padding-top: 30px;
+    font-size: 24px;
+}
+
+.cremation__wrapper .content_headre_map {
+    padding-top: 16px;
+}
+
+@media (max-width: 992px) {
+
+    .landing_header_content {
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+    }
+}

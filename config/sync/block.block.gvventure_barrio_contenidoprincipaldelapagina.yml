@@ -1,0 +1,20 @@
+uuid: 6d963670-5118-4c3d-b4fe-89f41869110b
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gvventure_barrio
+id: gvventure_barrio_contenidoprincipaldelapagina
+theme: gvventure_barrio
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+services:
+  geoblock.request_handler:
+    class: '\Drupal\geoblock\EventSubscriber\RequestHandler'
+    arguments: ['@config.factory', '@plugin.manager.geoblock_data_source', '@logger.factory']
+    tags:
+      - { name: event_subscriber }
+      - { name: service_collector, tag: geoblock_restriction, call: addRestriction }
+  geoblock.restriction.country_code:
+    class: '\Drupal\geoblock\Restriction\CountryCodeRestriction'
+    arguments: ['@config.factory']
+    tags:
+      - { name: geoblock_restriction }
+  geoblock.restriction.domestic:
+    class: '\Drupal\geoblock\Restriction\DomesticRestriction'
+    arguments: ['@config.factory']
+    tags:
+      - { name: geoblock_restriction }
+  plugin.manager.geoblock_data_source:
+    class: '\Drupal\geoblock\Plugin\GeoblockDataSourcePluginManager'
+    parent: default_plugin_manager

@@ -1,0 +1,124 @@
+.site-footer {
+    background-color: var(--artemis-white);
+    padding: 2rem 0;
+}
+
+.site-footer__top .block-menu, 
+.site-footer__bottom .block {
+    font-family: var(--font-family);
+}
+
+.site-footer__top {
+    padding-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .region-footer-first {
+        width: auto;
+        margin: 0;
+
+        a {
+            margin-top: 0;
+            padding: 0;
+        }
+    }
+
+    .region-footer-second {
+        justify-content: end;
+        width: 100%;
+
+        .nav-link {
+            color: var(--artemis-deep-brown);
+            text-decoration: none;
+            line-height: 1.2rem;
+            padding: 0;
+            font-weight: 400;
+            margin-left: 2rem;
+
+            &.show {
+                color: var(--artemis-steel-blue);
+                font-weight: 600;
+            }
+
+            &:hover {
+                color: var(--artemis-steel-blue);
+                text-decoration: none;
+                text-shadow: 1px 0 0 var(--artemis-steel-blue);
+            }
+        }
+    }
+}
+
+.site-footer__bottom {
+    margin-top: 0;
+    border-top: 1px solid var(--artemis-silver-grey);
+
+    .region-footer-fifth {
+        margin-top: 24px;
+    }
+}
+
+.region-footer-fifth {
+    margin: 0;
+
+    .block {
+        margin: 0;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-link {
+        color: var(--artemis-slate-grey);
+        text-decoration: none;
+        line-height: 0.9rem;
+        font-weight: 300;
+        font-size: 0.75rem;
+        margin-right: 1.5rem;
+        padding: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .site-footer__top {
+        flex-direction: column;
+        align-items: start;
+
+        .region-footer-first {
+            margin-bottom: 2rem;
+        }
+
+        .region-footer-second {
+            justify-content: start;
+
+            ul {
+                display: block;
+            }
+
+            .nav-link {
+                margin-left: 0;
+                margin-bottom: 2rem;
+            }
+
+            .nav-item:last-child {
+                .nav-link {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .region-footer-fifth {
+        .navbar-nav {
+            display: block;
+        }
+
+        .nav-link {
+            margin-bottom: 1.5rem;
+            margin-right: 0;
+        }
+    }
+}

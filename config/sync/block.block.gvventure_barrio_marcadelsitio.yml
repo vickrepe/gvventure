@@ -1,0 +1,23 @@
+uuid: 44d6ff38-1d7b-4619-aab3-7a7d4e6e1555
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gvventure_barrio
+id: gvventure_barrio_marcadelsitio
+theme: gvventure_barrio
+region: header
+weight: -1
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

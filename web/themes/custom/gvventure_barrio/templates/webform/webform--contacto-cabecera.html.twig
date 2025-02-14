@@ -1,0 +1,26 @@
+<form{{ attributes }}>
+  {{ title_prefix }}
+  <div class="hero-form__title">
+  {{ element.elements.hero_titulo }}
+  </div>
+  <div class="form-item">
+    {{ element.elements.nombre }}
+  </div>
+
+  <div class="form-item">
+    {{ element.elements.e_mail }}
+  </div>
+
+  <div class="phone-group">
+    <div class="phone-prefix">
+      {{ element.elements.prefijo }}
+    </div>
+    <div class="phone-number">
+      {{ element.elements.telefono }}
+    </div>
+  </div>
+
+  {{ element.elements.actions }} {# Renderiza los botones de acción, como Submit #}
+
+  {{ title_suffix }}
+</form>

@@ -1,0 +1,20 @@
+uuid: 3ed96fdc-0b3e-41de-ba12-43b3f4196af6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gvventure_barrio
+_core:
+  default_config_hash: IWWXq6_b5IhNgkozs37EEyOEq9pnnNIbYGnvsGLBKLg
+id: gvventure_barrio_page_title
+theme: gvventure_barrio
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

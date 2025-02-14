@@ -1,0 +1,348 @@
+.paragraph--type--iconos-descripcion {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+
+    .field--name-field-label {
+        font-weight: 400;
+        font-size: .75rem;
+        line-height: .9rem;
+        color: var(--artemis-steel-blue);
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+
+    .field--name-field-title {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 2.2rem;
+        color: var(--artemis-deep-charcoal);
+        margin-bottom: 1rem;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 2rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+            color: var(--artemis-deep-charcoal);
+            margin-bottom: 1rem;
+        }
+    }
+
+    .field--name-field-link {
+        display: flex;
+        justify-content: end;
+
+        a {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-weight: 400;
+            color: var(--artemis-steel-blue);
+            text-decoration: none;
+            width: 100%;
+            justify-content: end;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+
+            &::after {
+                content: '';
+                display: block;
+                height: .75rem;
+                width: 1rem;
+                background-image: url("data:image/svg+xml,%3Csvg width='16' height='12' viewBox='0 0 16 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 12L8.6 10.55L12.15 7H0V5H12.15L8.6 1.45L10 0L16 6L10 12Z' fill='%232A7193'/%3E%3C/svg%3E%0A");
+            }
+        }
+    }
+
+    .box-texto-iconos-horizontal {
+
+        .field--name-field-iconos {
+            display: flex;
+            gap: 1.5rem;
+            align-items: stretch;
+            margin-top: 2rem;
+
+            >.field__item {
+                display: flex;
+                flex: 1;
+            }
+        }
+
+        .field--name-field-link {
+            margin-top: 2rem;
+        }
+
+        .field--type-text-long {
+            color: var(--artemis-slate-grey);
+        }
+
+        .paragraph--type--icono {
+            border: .0625rem solid var(--artemis-soft-cloud);
+            display: flex;
+            flex-direction: column;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            justify-content: top;
+            align-items: center;
+
+            .field--type-image {
+                margin: 0;
+            }
+
+            img {
+                margin-bottom: 1.5rem;
+            }
+
+            .field--name-field-title {
+                font-size: 1.25rem;
+                line-height: 1.375rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                text-align: center;
+                color: var(--artemis-black);
+            }
+
+            .field--name-field-icon-text {
+                font-size: 1.125rem;
+                text-align: center;
+                font-weight: 400;
+                line-height: 1.6875rem;
+                flex: 1;
+                color: var(--artemis-slate-grey);
+
+                p {
+                    color: var(--artemis-slate-grey);
+                    font-size: 1.125rem;
+                    font-weight: 400;
+                    line-height: 1.6875rem;
+                    margin-bottom: 0;
+                }
+
+                a {
+                    color: var(--artemis-steel-blue);
+                    font-weight: 600;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: var(--artemis-steel-blue);
+                    }
+                }
+            }
+        }
+    }
+
+    .box-texto-iconos-vertical {
+        padding: 2.5rem 0;
+        display: flex;
+
+        >div:first-child {
+            padding: 2rem 0;
+            padding-right: 6.375rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        >div:last-child {
+            border-left: .0625rem solid var(--artemis-soft-cloud);
+            padding-left: 5rem;
+            padding-right: 0;
+        }
+
+        .field--name-field-title {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 2.75rem;
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: 2.5rem;
+                margin-bottom: 0;
+                line-height: 2.75rem;
+            }
+        }
+
+        .field--name-field-text {
+            color: var(--artemis-slate-grey);
+        }
+
+        .field--name-field-link {
+            padding-top: 2.1875rem;
+
+            a {
+                justify-content: start;
+            }
+        }
+
+        .field__item:last-child {
+            .paragraph--type--icono {
+                margin-bottom: 0;
+            }
+        }
+
+        .paragraph--type--icono {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            margin-bottom: 1.5rem;
+
+            .field--type-image {
+                grid-column: 1;
+                grid-row: 1 / span 2;
+
+                img {
+                    margin: 0;
+                }
+            }
+
+            .field--name-field-title {
+                grid-column: 2;
+                font-size: 1.125rem;
+                margin-bottom: .5rem;
+                line-height: 1.5rem;
+            }
+
+            .field--name-field-icon-text {
+                grid-column: 2;
+                font-size: 1rem;
+                color: var(--artemis-slate-grey);
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 992px) {
+    .paragraph--type--iconos-descripcion {
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        .paragraph--type--icono {
+            .field--name-field-icon-text {
+                padding-bottom: 2.75rem;
+            }
+        }
+
+        .field--name-field-title {
+            font-size: 1.5rem;
+            line-height: 1.65rem;
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: 1.5rem;
+                line-height: 1.65rem;
+            }
+        }
+
+        .field--name-field-link {
+            margin-top: 2rem;
+
+            a {
+                justify-content: start;
+            }
+        }
+
+        .glide__slide {
+            display: flex;
+            height: auto;
+        }
+
+        .box-texto-iconos-vertical {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+
+            >div:first-child {
+                width: 100%;
+                padding: 0;
+            }
+
+            >div:last-child {
+                border-left: none;
+                width: 100%;
+                padding: 0;
+                margin-top: 2.5rem;
+            }
+
+            .field--name-field-label {
+                margin-bottom: 1.5rem;
+            }
+
+            .field--name-field-title {
+                margin-bottom: 1.5rem;
+                font-weight: 500;
+                font-size: 1.75rem;
+                line-height: 1.925rem;
+
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    margin-bottom: 1.5rem;
+                    font-weight: 500;
+                    font-size: 1.75rem;
+                    line-height: 1.925rem;
+                }
+            }
+
+            .field--name-field-text {
+                font-size: 1.125rem;
+                line-height: 1.6875rem;
+            }
+
+            .field--name-field-link {
+                margin-top: 1.5rem;
+                padding-top: 0;
+            }
+
+            .paragraph--type--icono {
+                display: flex;
+                flex-direction: column;
+
+                .field--type-image {
+                    margin-bottom: 1rem;
+                }
+
+                .field--name-field-icon-text {
+                    padding-bottom: 0;
+
+                    p {
+                        color: var(--artemis-slate-grey);
+                        font-size: 1rem;
+                        font-weight: 400;
+                        line-height: 1.6875rem;
+                        margin-bottom: 0;
+                        padding-bottom: 0;
+                    }
+
+                }
+            }
+
+            .field__item:last-child {
+                .paragraph--type--icono {
+                    .field--name-field-icon-text {
+                        padding-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}

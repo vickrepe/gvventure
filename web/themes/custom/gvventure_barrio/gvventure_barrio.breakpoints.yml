@@ -1,0 +1,40 @@
+# Breakpoints del tema
+gvventure_barrio.extra-small:
+  label: "Extra Small"
+  mediaQuery: 'all'
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+
+gvventure_barrio.small:
+  label: "Small"
+  mediaQuery: 'all and (min-width: 576px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+
+gvventure_barrio.medium:
+  label: "Medium"
+  mediaQuery: 'all and (min-width: 768px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
+
+gvventure_barrio.large:
+  label: "Large"
+  mediaQuery: 'all and (min-width: 992px)'
+  weight: 3
+  multipliers:
+    - 1x
+    - 2x
+
+gvventure_barrio.extra-large:
+  label: "Extra Large"
+  mediaQuery: 'all and (min-width: 1200px)'
+  weight: 4
+  multipliers:
+    - 1x
+    - 2x

@@ -1,0 +1,9 @@
+image_style_flush.form:
+  path: '/admin/config/media/image-style-flush'
+  defaults:
+    _form: '\Drupal\image_style_flush\Form\ImageStyleFlushForm'
+    _title: 'Clear image styles'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
