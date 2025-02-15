@@ -1,0 +1,22 @@
+uuid: 8f0c7784-cd3f-46ec-84b4-1e7a961d86ac
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.block_background_image
+id: paragraph.block_background_image.status
+field_name: status
+entity_type: paragraph
+bundle: block_background_image
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

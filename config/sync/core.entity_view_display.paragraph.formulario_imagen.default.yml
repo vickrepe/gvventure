@@ -1,0 +1,46 @@
+uuid: 57449665-c584-44e8-ad28-54d26d0f562f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.formulario_imagen.field_fi_formulario
+    - field.field.paragraph.formulario_imagen.field_fi_imagen
+    - field.field.paragraph.formulario_imagen.field_fi_posicion_imagen
+    - paragraphs.paragraphs_type.formulario_imagen
+  module:
+    - image
+    - options
+    - webform
+id: paragraph.formulario_imagen.default
+targetEntityType: paragraph
+bundle: formulario_imagen
+mode: default
+content:
+  field_fi_formulario:
+    type: webform_entity_reference_entity_view
+    label: hidden
+    settings:
+      source_entity: true
+      lazy: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_fi_imagen:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_fi_posicion_imagen:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

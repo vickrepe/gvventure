@@ -1,0 +1,22 @@
+uuid: e9dfb1db-3da1-4f63-88fc-2c0b4725d5ca
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_servicio
+id: taxonomy_term.tipo_servicio.status
+field_name: status
+entity_type: taxonomy_term
+bundle: tipo_servicio
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

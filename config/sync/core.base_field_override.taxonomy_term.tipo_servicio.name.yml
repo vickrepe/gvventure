@@ -1,0 +1,18 @@
+uuid: 0a5c8ed7-0059-49ff-90f9-58fd4bc553ce
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_servicio
+id: taxonomy_term.tipo_servicio.name
+field_name: name
+entity_type: taxonomy_term
+bundle: tipo_servicio
+label: Nombre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

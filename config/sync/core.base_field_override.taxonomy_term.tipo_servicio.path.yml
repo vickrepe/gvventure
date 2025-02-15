@@ -1,0 +1,20 @@
+uuid: ed0c2f15-c8f7-4857-b1eb-6f3fa3a413fa
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_servicio
+  module:
+    - path
+id: taxonomy_term.tipo_servicio.path
+field_name: path
+entity_type: taxonomy_term
+bundle: tipo_servicio
+label: 'Alias de URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

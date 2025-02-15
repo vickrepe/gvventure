@@ -1,4 +1,5 @@
 uuid: 3fac5b9d-e753-48de-8a28-5d4f2c51f3e2
+langcode: en
 status: true
 dependencies:
   config:
@@ -16,11 +17,11 @@ required: false
 translatable: true
 default_value:
   -
+    focus_keyword: ''
+    status: ''
     yoast_seo:
       focus_keyword: ''
       status: ''
-    status: ''
-    focus_keyword: ''
 default_value_callback: ''
 settings: {  }
 field_type: yoast_seo

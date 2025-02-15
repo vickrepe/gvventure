@@ -1,0 +1,85 @@
+uuid: 7da59aa5-e913-4ca5-b992-698a2fe05ae6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_color
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_enlace
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_etiqueta
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_imagen
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_selector_hn
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_texto
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_titulo
+    - paragraphs.paragraphs_type.dos_columnas_informacion_imagen
+    - responsive_image.styles.dos_columnas_informacion_imagen
+  module:
+    - link
+    - options
+    - responsive_image
+    - text
+id: paragraph.dos_columnas_informacion_imagen.default
+targetEntityType: paragraph
+bundle: dos_columnas_informacion_imagen
+mode: default
+content:
+  field_dos_columnas_color:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_dos_columnas_enlace:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_dos_columnas_etiqueta:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_dos_columnas_imagen:
+    type: responsive_image
+    label: hidden
+    settings:
+      responsive_image_style: dos_columnas_informacion_imagen
+      image_link: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_dos_columnas_selector_hn:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_dos_columnas_texto:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_dos_columnas_titulo:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

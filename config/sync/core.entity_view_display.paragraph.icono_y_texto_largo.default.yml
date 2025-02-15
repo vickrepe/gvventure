@@ -1,0 +1,45 @@
+uuid: 0c915145-26b2-42c1-a80d-127d3b9997ce
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icono_y_texto_largo.field_icono
+    - field.field.paragraph.icono_y_texto_largo.field_texto_long
+    - field.field.paragraph.icono_y_texto_largo.field_title_long
+    - image.style.bloque_iconos
+    - paragraphs.paragraphs_type.icono_y_texto_largo
+  module:
+    - image
+    - text
+id: paragraph.icono_y_texto_largo.default
+targetEntityType: paragraph
+bundle: icono_y_texto_largo
+mode: default
+content:
+  field_icono:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: bloque_iconos
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_texto_long:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title_long:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

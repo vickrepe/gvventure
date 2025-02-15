@@ -1,0 +1,69 @@
+uuid: 35991b58-551f-40e2-9c32-f2c6ef82c812
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.productos_individuales.field_individuales_color
+    - field.field.paragraph.productos_individuales.field_individuales_etiqueta
+    - field.field.paragraph.productos_individuales.field_individuales_texto
+    - field.field.paragraph.productos_individuales.field_individuales_titulo
+    - field.field.paragraph.productos_individuales.field_individuales_vista
+    - paragraphs.paragraphs_type.productos_individuales
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - viewsreference
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.productos_individuales.default
+targetEntityType: paragraph
+bundle: productos_individuales
+mode: default
+content:
+  field_individuales_color:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_individuales_etiqueta:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_individuales_texto:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_individuales_titulo:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_individuales_vista:
+    type: viewsreference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

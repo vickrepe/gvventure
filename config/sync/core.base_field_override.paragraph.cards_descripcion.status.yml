@@ -1,0 +1,22 @@
+uuid: 05ac1f3d-d743-462f-909e-f1b784bb21d5
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.cards_descripcion
+id: paragraph.cards_descripcion.status
+field_name: status
+entity_type: paragraph
+bundle: cards_descripcion
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

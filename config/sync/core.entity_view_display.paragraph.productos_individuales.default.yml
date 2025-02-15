@@ -1,0 +1,60 @@
+uuid: cec85689-ea54-4074-9c5b-44880ee63297
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.productos_individuales.field_individuales_color
+    - field.field.paragraph.productos_individuales.field_individuales_etiqueta
+    - field.field.paragraph.productos_individuales.field_individuales_texto
+    - field.field.paragraph.productos_individuales.field_individuales_titulo
+    - field.field.paragraph.productos_individuales.field_individuales_vista
+    - paragraphs.paragraphs_type.productos_individuales
+  module:
+    - options
+    - text
+    - viewsreference
+id: paragraph.productos_individuales.default
+targetEntityType: paragraph
+bundle: productos_individuales
+mode: default
+content:
+  field_individuales_color:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_individuales_etiqueta:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_individuales_texto:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_individuales_titulo:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_individuales_vista:
+    type: viewsreference_formatter
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }

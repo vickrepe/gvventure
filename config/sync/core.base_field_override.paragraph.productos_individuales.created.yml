@@ -1,0 +1,18 @@
+uuid: f28ad498-4fc1-47aa-a1c3-1a39c1f66d47
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.productos_individuales
+id: paragraph.productos_individuales.created
+field_name: created
+entity_type: paragraph
+bundle: productos_individuales
+label: 'Fecha de autoría'
+description: 'La hora en que se creó el Paragraph.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

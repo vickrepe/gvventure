@@ -1,0 +1,22 @@
+uuid: 6f6cf024-d063-4415-929b-beb3c0b64c46
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.formulario_imagen
+id: paragraph.formulario_imagen.status
+field_name: status
+entity_type: paragraph
+bundle: formulario_imagen
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

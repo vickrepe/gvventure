@@ -1,0 +1,51 @@
+uuid: 747617fc-91c3-4054-ad4f-cbaf74038bb3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.mapa_con_texto_de_cabecera.field_mapa
+    - field.field.paragraph.mapa_con_texto_de_cabecera.field_selector_hn
+    - field.field.paragraph.mapa_con_texto_de_cabecera.field_texto_de_cabecera
+    - paragraphs.paragraphs_type.mapa_con_texto_de_cabecera
+  module:
+    - field_layout
+    - google_map_field
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.mapa_con_texto_de_cabecera.default
+targetEntityType: paragraph
+bundle: mapa_con_texto_de_cabecera
+mode: default
+content:
+  field_mapa:
+    type: google_map_field_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_selector_hn:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_texto_de_cabecera:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

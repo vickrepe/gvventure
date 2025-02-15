@@ -1,0 +1,40 @@
+uuid: 9e1e4690-2c5d-4298-8794-c506853862a4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.mapa_con_texto_de_cabecera.field_mapa
+    - field.field.paragraph.mapa_con_texto_de_cabecera.field_selector_hn
+    - field.field.paragraph.mapa_con_texto_de_cabecera.field_texto_de_cabecera
+    - paragraphs.paragraphs_type.mapa_con_texto_de_cabecera
+  module:
+    - google_map_field
+    - options
+id: paragraph.mapa_con_texto_de_cabecera.default
+targetEntityType: paragraph
+bundle: mapa_con_texto_de_cabecera
+mode: default
+content:
+  field_mapa:
+    type: google_map_field_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_selector_hn:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_texto_de_cabecera:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

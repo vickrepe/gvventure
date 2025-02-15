@@ -1,0 +1,18 @@
+uuid: cefe1279-922d-4254-b38f-abff33f043d9
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.block_background_image
+id: paragraph.block_background_image.created
+field_name: created
+entity_type: paragraph
+bundle: block_background_image
+label: 'Fecha de autoría'
+description: 'La hora en que se creó el Paragraph.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,18 @@
+uuid: bdaa8eaf-7fb9-4be0-910c-c4d18862a9ba
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.contacto_traslados
+id: paragraph.contacto_traslados.created
+field_name: created
+entity_type: paragraph
+bundle: contacto_traslados
+label: 'Fecha de autoría'
+description: 'La hora en que se creó el Paragraph.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

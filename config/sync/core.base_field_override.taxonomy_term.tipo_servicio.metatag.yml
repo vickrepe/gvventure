@@ -1,0 +1,18 @@
+uuid: 72df2955-3ee2-46cb-a996-e015955dce14
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_servicio
+id: taxonomy_term.tipo_servicio.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: tipo_servicio
+label: 'Metatags (Hidden field for JSON support)'
+description: 'Las metaetiquetas de la entidad.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

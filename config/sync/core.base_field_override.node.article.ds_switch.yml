@@ -1,0 +1,18 @@
+uuid: 69ea9416-903a-4296-8809-970336609d61
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.ds_switch
+field_name: ds_switch
+entity_type: node
+bundle: article
+label: 'DS switch'
+description: 'Holds the DS view mode of the node.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

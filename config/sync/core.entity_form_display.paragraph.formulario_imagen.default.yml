@@ -1,0 +1,50 @@
+uuid: 6598e608-a203-4383-92ce-51528c52b2d3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.formulario_imagen.field_fi_formulario
+    - field.field.paragraph.formulario_imagen.field_fi_imagen
+    - field.field.paragraph.formulario_imagen.field_fi_posicion_imagen
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.formulario_imagen
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - webform
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.formulario_imagen.default
+targetEntityType: paragraph
+bundle: formulario_imagen
+mode: default
+content:
+  field_fi_formulario:
+    type: webform_entity_reference_select
+    weight: 4
+    region: content
+    settings:
+      default_data: true
+      webforms: {  }
+    third_party_settings: {  }
+  field_fi_imagen:
+    type: image_image
+    weight: 5
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_fi_posicion_imagen:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

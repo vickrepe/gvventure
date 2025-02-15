@@ -1,0 +1,67 @@
+uuid: 57018132-d867-4824-9b62-2b8275d89e66
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paquetes_de_productos.field_paquetes_etiqueta
+    - field.field.paragraph.paquetes_de_productos.field_paquetes_texto
+    - field.field.paragraph.paquetes_de_productos.field_paquetes_titulo
+    - field.field.paragraph.paquetes_de_productos.field_paquetes_vista
+    - paragraphs.paragraphs_type.paquetes_de_productos
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - viewsreference
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.paquetes_de_productos.default
+targetEntityType: paragraph
+bundle: paquetes_de_productos
+mode: default
+content:
+  field_paquetes_etiqueta:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_paquetes_texto:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_paquetes_titulo:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_paquetes_vista:
+    type: viewsreference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

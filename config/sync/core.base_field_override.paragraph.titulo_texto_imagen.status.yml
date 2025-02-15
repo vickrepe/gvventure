@@ -1,0 +1,22 @@
+uuid: 11a405ce-ffd7-4d94-a57d-ff3e3bf65a18
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.titulo_texto_imagen
+id: paragraph.titulo_texto_imagen.status
+field_name: status
+entity_type: paragraph
+bundle: titulo_texto_imagen
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

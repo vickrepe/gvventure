@@ -1,0 +1,22 @@
+uuid: 74534987-e4c6-4948-912e-1f9965702658
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.contacto_traslados
+id: paragraph.contacto_traslados.status
+field_name: status
+entity_type: paragraph
+bundle: contacto_traslados
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

@@ -1,0 +1,74 @@
+uuid: 8ae97a55-df81-4b8a-bffb-008186c9866f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pg_block_view.field_bg_color
+    - field.field.paragraph.pg_block_view.field_block_view
+    - field.field.paragraph.pg_block_view.field_label
+    - field.field.paragraph.pg_block_view.field_text
+    - field.field.paragraph.pg_block_view.field_title
+    - paragraphs.paragraphs_type.pg_block_view
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - viewsreference
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.pg_block_view.default
+targetEntityType: paragraph
+bundle: pg_block_view
+mode: default
+content:
+  field_bg_color:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_block_view:
+    type: viewsreference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_text:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,22 @@
+uuid: b3ba7248-8af9-4c89-9547-da7023de2b8e
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.card_servicios
+id: paragraph.card_servicios.status
+field_name: status
+entity_type: paragraph
+bundle: card_servicios
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

@@ -1,0 +1,71 @@
+uuid: 00ec612a-8c9e-4ae9-99a5-5204d1a2a8a7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_servicios.field_item_listt
+    - field.field.paragraph.card_servicios.field_link
+    - field.field.paragraph.card_servicios.field_media
+    - field.field.paragraph.card_servicios.field_price
+    - field.field.paragraph.card_servicios.field_title
+    - paragraphs.paragraphs_type.card_servicios
+    - responsive_image.styles.cards_servicios
+  module:
+    - link
+    - responsive_image
+id: paragraph.card_servicios.default
+targetEntityType: paragraph
+bundle: card_servicios
+mode: default
+content:
+  field_item_listt:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_media:
+    type: responsive_image
+    label: hidden
+    settings:
+      responsive_image_style: cards_servicios
+      image_link: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_price:
+    type: number_decimal
+    label: hidden
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 0
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

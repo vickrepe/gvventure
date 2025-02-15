@@ -1,0 +1,77 @@
+uuid: 6f9ec2cc-0705-4085-9345-b49d7e42df4e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.tarjeta_de_paquetes.field_boton
+    - field.field.node.tarjeta_de_paquetes.field_enlaces
+    - field.field.node.tarjeta_de_paquetes.field_icono
+    - field.field.node.tarjeta_de_paquetes.field_texto
+    - field.field.node.tarjeta_de_paquetes.field_titulo
+    - node.type.tarjeta_de_paquetes
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.tarjeta_de_paquetes.default
+targetEntityType: node
+bundle: tarjeta_de_paquetes
+mode: default
+content:
+  field_boton:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_enlaces:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_icono:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_texto:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_titulo:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,39 @@
+uuid: c8b444f0-63cb-4fa5-801a-80a51116a0e7
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.landing.field_contenido_landing
+    - field.field.node.landing.field_form_contacto_landing
+    - field.field.node.landing.field_imagen_de_fondo
+    - field.field.node.landing.field_meta_tags
+    - field.field.node.landing.field_selector_hn
+    - field.field.node.landing.field_telefono_landing
+    - field.field.node.landing.field_texto_de_cabecera
+    - field.field.node.landing.field_texto_landing
+    - field.field.node.landing.field_yoast_seo
+    - node.type.landing
+  module:
+    - user
+id: node.landing.teaser
+targetEntityType: node
+bundle: landing
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_contenido_landing: true
+  field_form_contacto_landing: true
+  field_imagen_de_fondo: true
+  field_meta_tags: true
+  field_selector_hn: true
+  field_telefono_landing: true
+  field_texto_de_cabecera: true
+  field_texto_landing: true
+  field_yoast_seo: true
+  langcode: true

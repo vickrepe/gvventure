@@ -1,0 +1,22 @@
+uuid: 48d468a6-b94e-435d-95e4-4b5ea663c8c2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texto_avanzado.field_texto_con_formato_largo
+    - paragraphs.paragraphs_type.texto_avanzado
+  module:
+    - text
+id: paragraph.texto_avanzado.default
+targetEntityType: paragraph
+bundle: texto_avanzado
+mode: default
+content:
+  field_texto_con_formato_largo:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

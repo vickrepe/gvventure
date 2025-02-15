@@ -1,0 +1,44 @@
+uuid: 8f734c78-4015-4b54-bcf3-85b0d7c9069b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.preguntas_frecuentes.field_faq_titulo
+    - field.field.paragraph.preguntas_frecuentes.field_faq_vista
+    - paragraphs.paragraphs_type.preguntas_frecuentes
+  module:
+    - field_layout
+    - layout_discovery
+    - viewsreference
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.preguntas_frecuentes.default
+targetEntityType: paragraph
+bundle: preguntas_frecuentes
+mode: default
+content:
+  field_faq_titulo:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_faq_vista:
+    type: viewsreference_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

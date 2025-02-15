@@ -1,0 +1,11 @@
+uuid: cea7f039-a4e9-47d5-9b36-e9231fd2f5dc
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.traslados
+label: Traslados
+description: ''
+targetEntityType: node
+cache: true

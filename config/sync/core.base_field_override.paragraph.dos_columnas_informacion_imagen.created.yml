@@ -1,0 +1,18 @@
+uuid: 9ae09e82-ab02-4397-a342-208ce938ac86
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.dos_columnas_informacion_imagen
+id: paragraph.dos_columnas_informacion_imagen.created
+field_name: created
+entity_type: paragraph
+bundle: dos_columnas_informacion_imagen
+label: 'Fecha de autoría'
+description: 'La hora en que se creó el Paragraph.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

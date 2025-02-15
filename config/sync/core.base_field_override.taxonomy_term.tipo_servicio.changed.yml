@@ -1,0 +1,18 @@
+uuid: d5741ba4-0517-4bb4-bdef-cc1b3202ad71
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_servicio
+id: taxonomy_term.tipo_servicio.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: tipo_servicio
+label: Modificado
+description: 'La fecha en que el término fue creado por última vez.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,18 @@
+uuid: 43ca94fd-e8a0-4b58-88fc-36525e2dc687
+langcode: es
+status: true
+dependencies:
+  config:
+    - shortcut.set.administrador
+id: shortcut.administrador.metatag
+field_name: metatag
+entity_type: shortcut
+bundle: administrador
+label: 'Metatags (Hidden field for JSON support)'
+description: 'Las metaetiquetas de la entidad.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

@@ -1,0 +1,18 @@
+uuid: e0769fe5-dcfe-43b9-ab58-a3ca84cc5887
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.titulo_texto_imagen
+id: paragraph.titulo_texto_imagen.created
+field_name: created
+entity_type: paragraph
+bundle: titulo_texto_imagen
+label: 'Fecha de autoría'
+description: 'La hora en que se creó el Paragraph.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
