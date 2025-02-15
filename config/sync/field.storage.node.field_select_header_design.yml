@@ -1,0 +1,30 @@
+uuid: a12e2eed-246f-426d-bf58-8eda127303ab
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_select_header_design
+field_name: field_select_header_design
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: long
+      label: Long
+    -
+      value: short
+      label: Short
+    -
+      value: short_form
+      label: 'Short Form'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 7923792b-a136-4f58-819f-bd8899f453bb
+langcode: es
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_price
+field_name: field_price
+entity_type: paragraph
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

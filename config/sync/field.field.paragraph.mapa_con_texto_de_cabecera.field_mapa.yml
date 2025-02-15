@@ -1,0 +1,21 @@
+uuid: 008a539f-f78a-4c8d-b5a9-27e627a79f46
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mapa
+    - paragraphs.paragraphs_type.mapa_con_texto_de_cabecera
+  module:
+    - google_map_field
+id: paragraph.mapa_con_texto_de_cabecera.field_mapa
+field_name: field_mapa
+entity_type: paragraph
+bundle: mapa_con_texto_de_cabecera
+label: Mapa
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: google_map_field

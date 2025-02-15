@@ -1,0 +1,67 @@
+uuid: 2b848669-726d-45cf-9258-464ed88ddf2f
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.bloque_blog_destacado_lg
+    - image.style.bloque_blog_destacado_md
+    - image.style.bloque_blog_destacado_sm
+    - image.style.bloque_blog_destacado_xl
+    - image.style.bloque_blog_destacado_xs
+  theme:
+    - gvventure_barrio
+id: bloque_blog_destacado
+label: 'Bloque blog destacado'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: bloque_blog_destacado_xl
+    breakpoint_id: gvventure_barrio.extra-large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: bloque_blog_destacado_xl
+    breakpoint_id: gvventure_barrio.extra-large
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: bloque_blog_destacado_lg
+    breakpoint_id: gvventure_barrio.large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: bloque_blog_destacado_lg
+    breakpoint_id: gvventure_barrio.large
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: bloque_blog_destacado_md
+    breakpoint_id: gvventure_barrio.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: bloque_blog_destacado_md
+    breakpoint_id: gvventure_barrio.medium
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: bloque_blog_destacado_sm
+    breakpoint_id: gvventure_barrio.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: bloque_blog_destacado_sm
+    breakpoint_id: gvventure_barrio.small
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: bloque_blog_destacado_xs
+    breakpoint_id: gvventure_barrio.extra-small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: bloque_blog_destacado_xs
+    breakpoint_id: gvventure_barrio.extra-small
+    multiplier: 2x
+breakpoint_group: gvventure_barrio
+fallback_image_style: '_original image_'

@@ -1,0 +1,21 @@
+uuid: 4d94bb26-5c59-454a-9a74-fc8e37602a0f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label_selector_hn
+    - paragraphs.paragraphs_type.label_title_texto_two_links
+  module:
+    - options
+id: paragraph.label_title_texto_two_links.field_label_selector_hn
+field_name: field_label_selector_hn
+entity_type: paragraph
+bundle: label_title_texto_two_links
+label: 'Selector Hn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

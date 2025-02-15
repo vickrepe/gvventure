@@ -1,0 +1,30 @@
+uuid: 8bda469a-2496-4b4a-bec8-1d690cc39b7b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paquetes_vista
+    - paragraphs.paragraphs_type.paquetes_de_productos
+  module:
+    - viewsreference
+id: paragraph.paquetes_de_productos.field_paquetes_vista
+field_name: field_paquetes_vista
+entity_type: paragraph
+bundle: paquetes_de_productos
+label: Vista
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  plugin_types:
+    block: block
+  preselect_views:
+    paquetes: paquetes
+  enabled_settings: {  }
+field_type: viewsreference

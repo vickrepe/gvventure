@@ -1,0 +1,20 @@
+uuid: 9b75afc8-9858-464c-b859-8c69cc96f874
+langcode: es
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_mensaje
+field_name: field_mensaje
+entity_type: paragraph
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 23d87f1c-b1bb-423c-804e-2cf793b3ebea
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_enlaces
+    - paragraphs.paragraphs_type.label_title_texto_two_links
+  module:
+    - link
+id: paragraph.label_title_texto_two_links.field_enlaces
+field_name: field_enlaces
+entity_type: paragraph
+bundle: label_title_texto_two_links
+label: Enlaces
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

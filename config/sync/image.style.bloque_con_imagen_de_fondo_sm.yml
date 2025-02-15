@@ -1,0 +1,21 @@
+uuid: 3af86fdb-88fa-4c7b-a3a5-933c2f3924bf
+langcode: es
+status: true
+dependencies: {  }
+name: bloque_con_imagen_de_fondo_sm
+label: 'Bloque con imagen de fondo sm'
+effects:
+  fd369152-9c2c-41e4-a23f-716e11f14fb5:
+    uuid: fd369152-9c2c-41e4-a23f-716e11f14fb5
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  35d66658-a433-47da-bb6f-6d7d8f073292:
+    uuid: 35d66658-a433-47da-bb6f-6d7d8f073292
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 576
+      height: 450
+      anchor: center-center

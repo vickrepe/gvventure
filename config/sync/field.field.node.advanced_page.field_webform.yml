@@ -1,0 +1,49 @@
+uuid: 485efde9-d44c-4af1-bfb0-a02d1086236a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_webform
+    - node.type.advanced_page
+    - paragraphs.paragraphs_type.contacto_traslados
+  module:
+    - entity_reference_revisions
+id: node.advanced_page.field_webform
+field_name: field_webform
+entity_type: node
+bundle: advanced_page
+label: Webform
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      contacto_traslados: contacto_traslados
+    negate: 0
+    target_bundles_drag_drop:
+      contacto_traslados:
+        weight: 8
+        enabled: true
+      icono:
+        weight: 9
+        enabled: false
+      icono_y_texto:
+        weight: 11
+        enabled: false
+      iconos_descripcion:
+        weight: 10
+        enabled: false
+      ilustracion_y_texto:
+        weight: 12
+        enabled: false
+      texo_info_con_modal:
+        weight: 13
+        enabled: false
+      titulo_con_texto_imagen_link:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

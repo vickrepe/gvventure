@@ -1,0 +1,21 @@
+uuid: 0955fafd-7ec8-4ced-aca7-b094ce0b2b2c
+langcode: es
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - views
+    - viewsreference
+id: paragraph.field_faq_vista
+field_name: field_faq_vista
+entity_type: paragraph
+type: viewsreference
+settings:
+  target_type: view
+module: viewsreference
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

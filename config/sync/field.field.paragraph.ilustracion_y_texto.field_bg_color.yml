@@ -1,0 +1,21 @@
+uuid: fd6a03d5-3810-461f-9022-7c58658fc3dc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bg_color
+    - paragraphs.paragraphs_type.ilustracion_y_texto
+  module:
+    - options
+id: paragraph.ilustracion_y_texto.field_bg_color
+field_name: field_bg_color
+entity_type: paragraph
+bundle: ilustracion_y_texto
+label: 'Color de fondo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

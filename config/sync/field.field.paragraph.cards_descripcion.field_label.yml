@@ -1,0 +1,19 @@
+uuid: 759a13fd-de7f-4948-8c29-fb9566b6ab9d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label
+    - paragraphs.paragraphs_type.cards_descripcion
+id: paragraph.cards_descripcion.field_label
+field_name: field_label
+entity_type: paragraph
+bundle: cards_descripcion
+label: Etiqueta
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

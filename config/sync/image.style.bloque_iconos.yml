@@ -1,0 +1,21 @@
+uuid: 6a9c412a-d1e0-469f-82da-84904b4d3d21
+langcode: es
+status: true
+dependencies: {  }
+name: bloque_iconos
+label: 'Bloque Iconos'
+effects:
+  e311070a-d3a0-4fa6-b189-2fc0de814c6a:
+    uuid: e311070a-d3a0-4fa6-b189-2fc0de814c6a
+    id: image_scale
+    weight: 1
+    data:
+      width: 80
+      height: 80
+      upscale: false
+  9724d97c-f642-4414-9d17-6c8daef2f68b:
+    uuid: 9724d97c-f642-4414-9d17-6c8daef2f68b
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

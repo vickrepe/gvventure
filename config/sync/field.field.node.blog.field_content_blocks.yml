@@ -1,0 +1,128 @@
+uuid: a47dc346-1e8c-4e90-b5a9-7d34bd501f00
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_blocks
+    - node.type.blog
+    - paragraphs.paragraphs_type.block_background_image
+    - paragraphs.paragraphs_type.cards_descripcion
+    - paragraphs.paragraphs_type.icono
+    - paragraphs.paragraphs_type.icono_y_texto
+    - paragraphs.paragraphs_type.iconos_con_descripcion_larga
+    - paragraphs.paragraphs_type.iconos_descripcion
+    - paragraphs.paragraphs_type.ilustracion_y_texto
+    - paragraphs.paragraphs_type.paquetes_de_productos
+    - paragraphs.paragraphs_type.pg_block_view
+    - paragraphs.paragraphs_type.preguntas_frecuentes
+    - paragraphs.paragraphs_type.productos_individuales
+    - paragraphs.paragraphs_type.solicitar_info
+    - paragraphs.paragraphs_type.text_block
+    - paragraphs.paragraphs_type.titulo_con_texto_imagen_link
+    - paragraphs.paragraphs_type.titulo_texto_imagen
+  module:
+    - entity_reference_revisions
+id: node.blog.field_content_blocks
+field_name: field_content_blocks
+entity_type: node
+bundle: blog
+label: 'Bloques de contenido'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      ilustracion_y_texto: ilustracion_y_texto
+      iconos_descripcion: iconos_descripcion
+      icono: icono
+      icono_y_texto: icono_y_texto
+      titulo_con_texto_imagen_link: titulo_con_texto_imagen_link
+      iconos_con_descripcion_larga: iconos_con_descripcion_larga
+      cards_descripcion: cards_descripcion
+      block_background_image: block_background_image
+      paquetes_de_productos: paquetes_de_productos
+      preguntas_frecuentes: preguntas_frecuentes
+      solicitar_info: solicitar_info
+      productos_individuales: productos_individuales
+      pg_block_view: pg_block_view
+      titulo_texto_imagen: titulo_texto_imagen
+      text_block: text_block
+    negate: 0
+    target_bundles_drag_drop:
+      block_background_image:
+        weight: 18
+        enabled: true
+      card_servicios:
+        weight: 17
+        enabled: false
+      cards_descripcion:
+        weight: 16
+        enabled: true
+      contacto_traslados:
+        weight: 9
+        enabled: false
+      dos_columnas_informacion_imagen:
+        weight: 29
+        enabled: false
+      formulario_imagen:
+        weight: 30
+        enabled: false
+      icono:
+        weight: -8
+        enabled: true
+      icono_y_texto:
+        weight: 7
+        enabled: true
+      icono_y_texto_largo:
+        weight: 16
+        enabled: false
+      iconos_con_descripcion_larga:
+        weight: 11
+        enabled: true
+      iconos_descripcion:
+        weight: -10
+        enabled: true
+      ilustracion_y_texto:
+        weight: -11
+        enabled: true
+      label_title_texto_two_links:
+        weight: 37
+        enabled: false
+      mapa_con_texto_de_cabecera:
+        weight: 25
+        enabled: false
+      paquetes_de_productos:
+        weight: 18
+        enabled: true
+      pg_block_view:
+        weight: 31
+        enabled: true
+      preguntas_frecuentes:
+        weight: 20
+        enabled: true
+      productos_individuales:
+        weight: 29
+        enabled: true
+      solicitar_info:
+        weight: 22
+        enabled: true
+      texo_info_con_modal:
+        weight: 15
+        enabled: false
+      text_block:
+        weight: 46
+        enabled: true
+      texto_avanzado:
+        weight: 45
+        enabled: false
+      titulo_con_texto_imagen_link:
+        weight: 10
+        enabled: true
+      titulo_texto_imagen:
+        weight: 38
+        enabled: true
+field_type: entity_reference_revisions

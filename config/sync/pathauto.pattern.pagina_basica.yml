@@ -1,0 +1,35 @@
+uuid: 18906608-c094-463c-8adb-a7c993a804df
+langcode: es
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: pagina_basica
+label: 'Página básica'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  1cdc0926-8866-466e-a904-b2d82f14016a:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 1cdc0926-8866-466e-a904-b2d82f14016a
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+  12446356-4980-4717-94b2-63475a483e6d:
+    id: language
+    negate: false
+    uuid: 12446356-4980-4717-94b2-63475a483e6d
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      es: es
+      en: en
+      ca: ca
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

@@ -1,0 +1,19 @@
+uuid: 44efb186-7441-4199-8fd5-6dad4721a3da
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_dos_columnas_enlace
+field_name: field_dos_columnas_enlace
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

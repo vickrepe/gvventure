@@ -1,0 +1,22 @@
+uuid: e5d4ed61-ba00-41c6-ac0f-3f8f0231ddd7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dos_columnas_texto
+    - paragraphs.paragraphs_type.dos_columnas_informacion_imagen
+  module:
+    - text
+id: paragraph.dos_columnas_informacion_imagen.field_dos_columnas_texto
+field_name: field_dos_columnas_texto
+entity_type: paragraph
+bundle: dos_columnas_informacion_imagen
+label: Texto
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

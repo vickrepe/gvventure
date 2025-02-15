@@ -1,0 +1,21 @@
+uuid: 25407354-498a-45d4-bde2-06beb26bb797
+langcode: es
+status: true
+dependencies: {  }
+name: ilustracion_y_texto_lg
+label: 'Ilustración y texto lg'
+effects:
+  5bcedaff-1b84-41fb-8aa8-1fca26079975:
+    uuid: 5bcedaff-1b84-41fb-8aa8-1fca26079975
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  434905be-8575-44e6-b1e7-264a3d3636b5:
+    uuid: 434905be-8575-44e6-b1e7-264a3d3636b5
+    id: image_scale
+    weight: 2
+    data:
+      width: 588
+      height: null
+      upscale: true

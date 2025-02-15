@@ -1,0 +1,22 @@
+uuid: 35b5b801-08e0-4f44-bd3c-d4e36864529e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_seo
+    - paragraphs.paragraphs_type.titulo_con_texto_imagen_link
+  module:
+    - text
+id: paragraph.titulo_con_texto_imagen_link.field_text_seo
+field_name: field_text_seo
+entity_type: paragraph
+bundle: titulo_con_texto_imagen_link
+label: 'Texto cita'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

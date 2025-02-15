@@ -1,0 +1,22 @@
+uuid: 738a420d-8dc7-4426-9174-5aa9d8ebf2ef
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_texto
+    - node.type.tarjeta_de_paquetes
+  module:
+    - text
+id: node.tarjeta_de_paquetes.field_texto
+field_name: field_texto
+entity_type: node
+bundle: tarjeta_de_paquetes
+label: Texto
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

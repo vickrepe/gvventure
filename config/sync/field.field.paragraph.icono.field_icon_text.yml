@@ -1,0 +1,22 @@
+uuid: 44f0a718-2254-4040-92d0-dfc43f836c31
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_text
+    - paragraphs.paragraphs_type.icono
+  module:
+    - text
+id: paragraph.icono.field_icon_text
+field_name: field_icon_text
+entity_type: paragraph
+bundle: icono
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

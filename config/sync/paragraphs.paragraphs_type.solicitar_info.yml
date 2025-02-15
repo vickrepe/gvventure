@@ -1,0 +1,10 @@
+uuid: e3a9ca1c-25ee-447f-af8b-035b5204f19f
+langcode: es
+status: true
+dependencies: {  }
+id: solicitar_info
+label: 'Solicitar info'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

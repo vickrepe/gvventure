@@ -1,0 +1,10 @@
+uuid: 70d37f1b-424b-4394-93b2-a4726d123d80
+langcode: es
+status: true
+dependencies: {  }
+id: ilustracion_y_texto
+label: 'Ilustración y texto'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

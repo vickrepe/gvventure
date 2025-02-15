@@ -1,0 +1,19 @@
+uuid: 72d19877-d075-496e-bd83-1e704e0a23fc
+langcode: es
+status: true
+dependencies:
+  module:
+    - google_map_field
+    - paragraphs
+id: paragraph.field_mapa
+field_name: field_mapa
+entity_type: paragraph
+type: google_map_field
+settings: {  }
+module: google_map_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 93ca2216-0966-4578-82e5-78a54a985502
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_diseno_de_columnas
+    - paragraphs.paragraphs_type.cards_descripcion
+  module:
+    - options
+id: paragraph.cards_descripcion.field_diseno_de_columnas
+field_name: field_diseno_de_columnas
+entity_type: paragraph
+bundle: cards_descripcion
+label: 'Diseño de columnas'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: cards_col_3
+default_value_callback: ''
+settings: {  }
+field_type: list_string

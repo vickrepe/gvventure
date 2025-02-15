@@ -1,0 +1,39 @@
+uuid: 60a93382-74d4-4939-9208-6ebd741c095e
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_hero_selector_hn
+field_name: field_hero_selector_hn
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: h1
+      label: H1
+    -
+      value: h2
+      label: H2
+    -
+      value: h3
+      label: H3
+    -
+      value: h4
+      label: H4
+    -
+      value: h5
+      label: H5
+    -
+      value: h6
+      label: H6
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

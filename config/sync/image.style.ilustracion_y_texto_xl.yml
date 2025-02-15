@@ -1,0 +1,21 @@
+uuid: c5916cd1-8b70-4f91-85ea-e8885acf07a9
+langcode: es
+status: true
+dependencies: {  }
+name: ilustracion_y_texto_xl
+label: 'Ilustración y texto xl'
+effects:
+  3b8c046f-6986-40db-9952-568aa0ab339e:
+    uuid: 3b8c046f-6986-40db-9952-568aa0ab339e
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  6ed55902-d181-4d1f-b852-6f0461f220e0:
+    uuid: 6ed55902-d181-4d1f-b852-6f0461f220e0
+    id: image_scale
+    weight: 2
+    data:
+      width: 588
+      height: null
+      upscale: true

@@ -1,0 +1,21 @@
+uuid: cb7dc9c7-1217-4dd9-8ca1-5073351f41b2
+langcode: es
+status: true
+dependencies: {  }
+name: bloque_con_imagen_de_fondo_xl
+label: 'Bloque con imagen de fondo xl'
+effects:
+  6d21a45f-6959-491d-abb3-9c148e7db110:
+    uuid: 6d21a45f-6959-491d-abb3-9c148e7db110
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  b52f05a7-f2e3-4c54-a59a-36cb5a49efc0:
+    uuid: b52f05a7-f2e3-4c54-a59a-36cb5a49efc0
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1440
+      height: 440
+      anchor: center-center

@@ -1,0 +1,21 @@
+uuid: f25b2977-bbdf-426a-a4de-8168e2e3ec1e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ilustracion_selector_hn
+    - paragraphs.paragraphs_type.ilustracion_y_texto
+  module:
+    - options
+id: paragraph.ilustracion_y_texto.field_ilustracion_selector_hn
+field_name: field_ilustracion_selector_hn
+entity_type: paragraph
+bundle: ilustracion_y_texto
+label: 'Selector Hn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

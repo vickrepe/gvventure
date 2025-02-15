@@ -1,0 +1,21 @@
+uuid: 4c520d61-192f-4c2f-b6ec-b0abdeb943a7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_full_width
+    - paragraphs.paragraphs_type.ilustracion_y_texto
+id: paragraph.ilustracion_y_texto.field_full_width
+field_name: field_full_width
+entity_type: paragraph
+bundle: ilustracion_y_texto
+label: ' Image full width'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

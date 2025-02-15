@@ -1,0 +1,19 @@
+uuid: e043ef80-63c3-426d-8518-1d0f0e92d528
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.pg_block_view
+id: paragraph.pg_block_view.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: pg_block_view
+label: Título
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

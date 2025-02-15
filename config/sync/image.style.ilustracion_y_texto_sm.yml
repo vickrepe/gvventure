@@ -1,0 +1,21 @@
+uuid: 21411f66-66b5-4eb0-8a5e-5a4f41a8841f
+langcode: es
+status: true
+dependencies: {  }
+name: ilustracion_y_texto_sm
+label: 'Ilustración y texto sm'
+effects:
+  6cb5d02b-4ab7-42ea-9a93-021fa0f724fd:
+    uuid: 6cb5d02b-4ab7-42ea-9a93-021fa0f724fd
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  5ecf0891-2eef-4d22-bddc-2d9d774d389e:
+    uuid: 5ecf0891-2eef-4d22-bddc-2d9d774d389e
+    id: image_scale
+    weight: 2
+    data:
+      width: 400
+      height: null
+      upscale: true

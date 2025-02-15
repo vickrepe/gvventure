@@ -1,0 +1,8 @@
+uuid: 5e538b7a-64f7-4e07-9897-fb6d76eaabdd
+langcode: es
+status: true
+dependencies: {  }
+id: otros_servicios
+label: 'Otros servicios'
+revision: false
+description: 'Bloque para mostrar el tipo de contenido tarjeta de paquetes.'

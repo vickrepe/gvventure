@@ -1,0 +1,10 @@
+uuid: 244bb5a0-e083-499b-80d6-e2b568e1f452
+langcode: es
+status: true
+dependencies: {  }
+id: preguntas_frecuentes
+label: 'Preguntas frecuentes'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+uuid: 36596830-aa2a-4d57-80cb-250833cede9d
+langcode: es
+status: true
+dependencies: {  }
+name: bloque_con_imagen_de_fondo_md
+label: 'Bloque con imagen de fondo md'
+effects:
+  dcfb3a8a-4338-48c0-8d1a-351913ad1280:
+    uuid: dcfb3a8a-4338-48c0-8d1a-351913ad1280
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  13e7761d-c4be-48f7-9530-4b9108144011:
+    uuid: 13e7761d-c4be-48f7-9530-4b9108144011
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 768
+      height: 450
+      anchor: center-center

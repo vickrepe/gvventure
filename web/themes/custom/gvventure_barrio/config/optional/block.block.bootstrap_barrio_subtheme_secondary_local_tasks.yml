@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - gvventure
-id: gvventure_secondary_local_tasks
-theme: gvventure
+    - gvventure_barrio
+id: gvventure_barrio_secondary_local_tasks
+theme: gvventure_barrio
 region: content
 weight: -4
 provider: null

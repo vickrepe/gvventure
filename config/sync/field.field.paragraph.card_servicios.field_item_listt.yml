@@ -1,0 +1,19 @@
+uuid: 62afdbe8-28aa-4339-9ff2-9f07b84520fc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_item_listt
+    - paragraphs.paragraphs_type.card_servicios
+id: paragraph.card_servicios.field_item_listt
+field_name: field_item_listt
+entity_type: paragraph
+bundle: card_servicios
+label: Listado
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

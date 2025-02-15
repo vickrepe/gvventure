@@ -1,0 +1,21 @@
+uuid: be5e13d1-cdb4-484c-b829-d0d4253c56a8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_fi_posicion_imagen
+    - paragraphs.paragraphs_type.formulario_imagen
+  module:
+    - options
+id: paragraph.formulario_imagen.field_fi_posicion_imagen
+field_name: field_fi_posicion_imagen
+entity_type: paragraph
+bundle: formulario_imagen
+label: 'Posición de la imagen'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

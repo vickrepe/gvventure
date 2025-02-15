@@ -1,0 +1,21 @@
+uuid: 78f40c46-2060-419d-805c-cc139648f065
+langcode: es
+status: true
+dependencies: {  }
+name: ilustracion_y_texto_md
+label: 'Ilustración y texto md'
+effects:
+  1876d3ce-6201-4b90-9153-30c9209f2a51:
+    uuid: 1876d3ce-6201-4b90-9153-30c9209f2a51
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  17fb6718-45d0-4847-b8f9-e48b1baf60c5:
+    uuid: 17fb6718-45d0-4847-b8f9-e48b1baf60c5
+    id: image_scale
+    weight: 2
+    data:
+      width: 500
+      height: null
+      upscale: true

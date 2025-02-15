@@ -1,0 +1,19 @@
+uuid: e18536ea-deca-49ff-a4ae-67cde6df37c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paquetes_titulo
+    - paragraphs.paragraphs_type.paquetes_de_productos
+id: paragraph.paquetes_de_productos.field_paquetes_titulo
+field_name: field_paquetes_titulo
+entity_type: paragraph
+bundle: paquetes_de_productos
+label: Título
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

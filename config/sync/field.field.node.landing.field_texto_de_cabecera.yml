@@ -1,0 +1,19 @@
+uuid: b6119869-14ac-406f-846f-38c17112daec
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_texto_de_cabecera
+    - node.type.landing
+id: node.landing.field_texto_de_cabecera
+field_name: field_texto_de_cabecera
+entity_type: node
+bundle: landing
+label: 'Texto de cabecera'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: 90a76da6-86eb-4a6b-a4e3-96137ce0a335
+langcode: es
+status: true
+dependencies: {  }
+id: block_background_image
+label: 'Block with background image'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

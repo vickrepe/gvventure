@@ -1,0 +1,26 @@
+uuid: 075c01a7-4fd7-4ed9-a10e-5d404b3a6c3a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - filter.format.basic_html
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.label_title_texto_two_links
+  module:
+    - text
+id: paragraph.label_title_texto_two_links.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: label_title_texto_two_links
+label: Texto
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+field_type: text_long

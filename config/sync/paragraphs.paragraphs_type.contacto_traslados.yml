@@ -1,0 +1,10 @@
+uuid: cf5786e8-b5f5-46ed-9fbb-1e5aefe9b813
+langcode: es
+status: true
+dependencies: {  }
+id: contacto_traslados
+label: 'Contacto traslados'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

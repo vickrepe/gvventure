@@ -1,0 +1,25 @@
+uuid: d946a11f-7702-43ff-a40c-f4fc8d6049ca
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_form_contacto_landing
+    - node.type.landing
+  module:
+    - webform
+id: node.landing.field_form_contacto_landing
+field_name: field_form_contacto_landing
+entity_type: node
+bundle: landing
+label: 'Formulario de contacto'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

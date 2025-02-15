@@ -1,0 +1,30 @@
+uuid: 4854b3ab-4920-4836-a35a-6bf0bd67f9b8
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.dos_columnas_informacion_imagen_escritorio
+    - image.style.dos_columnas_informacion_imagen_movil
+  theme:
+    - gvventure_barrio
+id: dos_columnas_informacion_imagen
+label: 'Dos columnas Información + Imagen'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - dos_columnas_informacion_imagen_escritorio
+    breakpoint_id: gvventure_barrio.large
+    multiplier: 1x
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - dos_columnas_informacion_imagen_movil
+    breakpoint_id: gvventure_barrio.medium
+    multiplier: 1x
+breakpoint_group: gvventure_barrio
+fallback_image_style: '_original image_'

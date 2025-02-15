@@ -1,0 +1,29 @@
+uuid: 9f4702a7-7adc-4bba-bd43-3820f20097c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imagen_servicio
+    - media.type.image
+    - paragraphs.paragraphs_type.texo_info_con_modal
+id: paragraph.texo_info_con_modal.field_imagen_servicio
+field_name: field_imagen_servicio
+entity_type: paragraph
+bundle: texo_info_con_modal
+label: imagen_servicio
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

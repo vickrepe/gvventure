@@ -1,0 +1,27 @@
+uuid: 9af41928-42e5-489c-a840-8ef01dcbb141
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_diseno_de_columnas
+field_name: field_diseno_de_columnas
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: cards_col_2
+      label: cards_col_2
+    -
+      value: cards_col_3
+      label: cards_col_3
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

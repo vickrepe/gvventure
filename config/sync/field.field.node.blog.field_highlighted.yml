@@ -1,0 +1,21 @@
+uuid: ed5d2c43-8e68-4144-9fcd-6ea58ad31fb6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_highlighted
+    - node.type.blog
+id: node.blog.field_highlighted
+field_name: field_highlighted
+entity_type: node
+bundle: blog
+label: 'Artículo destacado'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

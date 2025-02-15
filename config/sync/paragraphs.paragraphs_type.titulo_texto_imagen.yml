@@ -1,0 +1,10 @@
+uuid: 7948aa95-9a9a-4411-8536-768317146282
+langcode: es
+status: true
+dependencies: {  }
+id: titulo_texto_imagen
+label: 'Título + texto + imagen'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

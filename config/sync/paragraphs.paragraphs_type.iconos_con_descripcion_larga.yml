@@ -1,0 +1,10 @@
+uuid: 2025cab2-7e83-470c-b52a-47fa7a1882ea
+langcode: es
+status: true
+dependencies: {  }
+id: iconos_con_descripcion_larga
+label: 'Iconos con descripcion larga'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph similar a "iconos con descripción" pero el texto del icono es de tipo long'
+behavior_plugins: {  }

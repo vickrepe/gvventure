@@ -1,0 +1,35 @@
+uuid: 5b3fabdb-0004-4cdb-aada-6498da25bdce
+langcode: es
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: landing_es
+label: Landing
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  7236401d-2e40-404e-a1c9-dfa47bb3e911:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 7236401d-2e40-404e-a1c9-dfa47bb3e911
+    context_mapping:
+      node: node
+    bundles:
+      landing: landing
+  5f327caf-8ee3-481f-a4c8-97cd2f08ffb1:
+    id: language
+    negate: false
+    uuid: 5f327caf-8ee3-481f-a4c8-97cd2f08ffb1
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      es: es
+      en: en
+      ca: ca
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

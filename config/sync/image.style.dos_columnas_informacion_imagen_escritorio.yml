@@ -1,0 +1,15 @@
+uuid: 60513025-c208-4a7e-b314-83f56bdf542b
+langcode: es
+status: true
+dependencies: {  }
+name: dos_columnas_informacion_imagen_escritorio
+label: 'Dos columnas Información + Imagen escritorio'
+effects:
+  69c79d10-8476-43fd-b1f1-0104d69588ed:
+    uuid: 69c79d10-8476-43fd-b1f1-0104d69588ed
+    id: image_scale
+    weight: 1
+    data:
+      width: 588
+      height: 393
+      upscale: false

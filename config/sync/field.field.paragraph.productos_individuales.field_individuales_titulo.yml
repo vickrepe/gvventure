@@ -1,0 +1,19 @@
+uuid: a1cb1371-123c-4fe5-b944-ccb9325e71f0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_individuales_titulo
+    - paragraphs.paragraphs_type.productos_individuales
+id: paragraph.productos_individuales.field_individuales_titulo
+field_name: field_individuales_titulo
+entity_type: paragraph
+bundle: productos_individuales
+label: Título
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

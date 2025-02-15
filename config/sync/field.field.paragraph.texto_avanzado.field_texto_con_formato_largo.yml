@@ -1,0 +1,22 @@
+uuid: fc23a6f6-4c7a-47b2-bf64-e462eda19dc2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_con_formato_largo
+    - paragraphs.paragraphs_type.texto_avanzado
+  module:
+    - text
+id: paragraph.texto_avanzado.field_texto_con_formato_largo
+field_name: field_texto_con_formato_largo
+entity_type: paragraph
+bundle: texto_avanzado
+label: 'Texto con formato largo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

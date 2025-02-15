@@ -1,0 +1,24 @@
+uuid: 7a837db1-d603-4fe0-83fb-227596c31ad5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_texto
+    - filter.format.plain_text
+    - node.type.blog
+  module:
+    - text
+id: node.blog.field_hero_texto
+field_name: field_hero_texto
+entity_type: node
+bundle: blog
+label: 'Texto de cabecera'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - plain_text
+field_type: text_long

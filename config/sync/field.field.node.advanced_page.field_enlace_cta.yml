@@ -1,0 +1,23 @@
+uuid: 58535dca-478e-4754-851c-8ecc3cde0047
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_enlace_cta
+    - node.type.advanced_page
+  module:
+    - link
+id: node.advanced_page.field_enlace_cta
+field_name: field_enlace_cta
+entity_type: node
+bundle: advanced_page
+label: 'Enlace CTA'
+description: 'Este campo solo se muestra con la opción long.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

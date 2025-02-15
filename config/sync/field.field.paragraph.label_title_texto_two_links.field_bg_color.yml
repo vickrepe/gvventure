@@ -1,0 +1,23 @@
+uuid: 6340dda1-b539-4994-8041-0b6140e17138
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bg_color
+    - paragraphs.paragraphs_type.label_title_texto_two_links
+  module:
+    - options
+id: paragraph.label_title_texto_two_links.field_bg_color
+field_name: field_bg_color
+entity_type: paragraph
+bundle: label_title_texto_two_links
+label: 'Color de fondo'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: blanco
+default_value_callback: ''
+settings: {  }
+field_type: list_string

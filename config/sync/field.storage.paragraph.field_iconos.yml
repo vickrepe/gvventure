@@ -1,0 +1,20 @@
+uuid: a3f8eac6-bf9f-43b4-8b3f-56c2c92a0dac
+langcode: es
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+id: paragraph.field_iconos
+field_name: field_iconos
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 4
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

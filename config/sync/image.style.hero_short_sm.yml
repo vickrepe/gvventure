@@ -1,0 +1,21 @@
+uuid: 6d8defe1-0345-433c-8e82-126a930b3b26
+langcode: es
+status: true
+dependencies: {  }
+name: hero_short_sm
+label: 'Hero short sm'
+effects:
+  3332adc6-cc39-4587-974c-b7ca4e80e40a:
+    uuid: 3332adc6-cc39-4587-974c-b7ca4e80e40a
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 576
+      height: 450
+      anchor: center-center
+  6bbe0204-e6d7-4f85-bc98-2cb35c781df7:
+    uuid: 6bbe0204-e6d7-4f85-bc98-2cb35c781df7
+    id: image_convert
+    weight: -10
+    data:
+      extension: webp

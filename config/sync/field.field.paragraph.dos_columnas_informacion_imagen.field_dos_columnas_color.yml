@@ -1,0 +1,21 @@
+uuid: 6f43eac2-d66a-4013-bed8-c0660f855d37
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dos_columnas_color
+    - paragraphs.paragraphs_type.dos_columnas_informacion_imagen
+  module:
+    - options
+id: paragraph.dos_columnas_informacion_imagen.field_dos_columnas_color
+field_name: field_dos_columnas_color
+entity_type: paragraph
+bundle: dos_columnas_informacion_imagen
+label: 'Color de fondo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

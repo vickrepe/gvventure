@@ -1,0 +1,19 @@
+uuid: fa3b1ad7-dcb1-4389-a00d-8762e8beb0d7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_individuales_etiqueta
+    - paragraphs.paragraphs_type.productos_individuales
+id: paragraph.productos_individuales.field_individuales_etiqueta
+field_name: field_individuales_etiqueta
+entity_type: paragraph
+bundle: productos_individuales
+label: Etiqueta
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

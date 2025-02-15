@@ -1,0 +1,22 @@
+uuid: 08378199-5a68-46a8-8236-0d2eab34cfde
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto
+    - paragraphs.paragraphs_type.iconos_con_descripcion_larga
+  module:
+    - text
+id: paragraph.iconos_con_descripcion_larga.field_texto
+field_name: field_texto
+entity_type: paragraph
+bundle: iconos_con_descripcion_larga
+label: Texto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

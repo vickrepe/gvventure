@@ -1,0 +1,19 @@
+uuid: 586728c1-f9c2-490a-8331-cc8e167ce0b4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_detalle_servicio
+    - paragraphs.paragraphs_type.texo_info_con_modal
+id: paragraph.texo_info_con_modal.field_detalle_servicio
+field_name: field_detalle_servicio
+entity_type: paragraph
+bundle: texo_info_con_modal
+label: detalle_servicio
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

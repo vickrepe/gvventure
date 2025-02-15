@@ -1,0 +1,21 @@
+uuid: 76ceafe6-1013-4e85-8d8f-729692cb8e9d
+langcode: es
+status: true
+dependencies: {  }
+name: hero_short_xs
+label: 'Hero short xs'
+effects:
+  15c9dc97-8789-4f01-9178-40bd8ceccd70:
+    uuid: 15c9dc97-8789-4f01-9178-40bd8ceccd70
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  ec13a5f0-7e87-47cd-9334-fd5068a752f1:
+    uuid: ec13a5f0-7e87-47cd-9334-fd5068a752f1
+    id: image_scale_and_crop
+    weight: 3
+    data:
+      width: 360
+      height: 552
+      anchor: center-center

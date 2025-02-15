@@ -1,0 +1,55 @@
+uuid: 17b5b620-32a6-4e55-966e-9105b6bda0f9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_iconos
+    - paragraphs.paragraphs_type.icono
+    - paragraphs.paragraphs_type.iconos_descripcion
+  module:
+    - entity_reference_revisions
+id: paragraph.iconos_descripcion.field_iconos
+field_name: field_iconos
+entity_type: paragraph
+bundle: iconos_descripcion
+label: Iconos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      icono: icono
+    negate: 0
+    target_bundles_drag_drop:
+      contacto_traslados:
+        weight: 10
+        enabled: false
+      icono:
+        weight: 4
+        enabled: true
+      icono_y_texto:
+        weight: 12
+        enabled: false
+      icono_y_texto_largo:
+        weight: 13
+        enabled: false
+      iconos_con_descripcion_larga:
+        weight: 14
+        enabled: false
+      iconos_descripcion:
+        weight: 5
+        enabled: false
+      ilustracion_y_texto:
+        weight: 6
+        enabled: false
+      texo_info_con_modal:
+        weight: 17
+        enabled: false
+      titulo_con_texto_imagen_link:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

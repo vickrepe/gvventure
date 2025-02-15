@@ -1,0 +1,22 @@
+uuid: aca1406a-91bb-4846-b7e4-bc5ffe006cd8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_texto_landing
+    - node.type.landing
+  module:
+    - text
+id: node.landing.field_texto_landing
+field_name: field_texto_landing
+entity_type: node
+bundle: landing
+label: Texto
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

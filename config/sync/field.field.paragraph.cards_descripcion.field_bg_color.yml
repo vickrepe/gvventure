@@ -1,0 +1,21 @@
+uuid: 5a880ca5-ee5e-480b-984a-ef2040522b0a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bg_color
+    - paragraphs.paragraphs_type.cards_descripcion
+  module:
+    - options
+id: paragraph.cards_descripcion.field_bg_color
+field_name: field_bg_color
+entity_type: paragraph
+bundle: cards_descripcion
+label: 'Color de fondo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

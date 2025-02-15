@@ -1,0 +1,21 @@
+uuid: b0945cdd-6162-4844-af89-642265451231
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cards_selector_hn
+    - paragraphs.paragraphs_type.cards_descripcion
+  module:
+    - options
+id: paragraph.cards_descripcion.field_cards_selector_hn
+field_name: field_cards_selector_hn
+entity_type: paragraph
+bundle: cards_descripcion
+label: 'Selector Hn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

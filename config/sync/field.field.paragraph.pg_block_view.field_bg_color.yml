@@ -1,0 +1,21 @@
+uuid: d6dcfe53-c790-47c2-b070-bd3a6f0a6eff
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bg_color
+    - paragraphs.paragraphs_type.pg_block_view
+  module:
+    - options
+id: paragraph.pg_block_view.field_bg_color
+field_name: field_bg_color
+entity_type: paragraph
+bundle: pg_block_view
+label: 'Color de fondo'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

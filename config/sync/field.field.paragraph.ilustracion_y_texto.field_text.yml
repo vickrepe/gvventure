@@ -1,0 +1,22 @@
+uuid: 60d8a8c3-c361-4de0-ab41-f4df870ebfe4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.ilustracion_y_texto
+  module:
+    - text
+id: paragraph.ilustracion_y_texto.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: ilustracion_y_texto
+label: Texto
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

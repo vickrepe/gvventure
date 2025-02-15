@@ -1,0 +1,26 @@
+uuid: 3912b14d-0d3f-4a04-9435-cd5d5e30e55d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - filter.format.basic_html
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.block_background_image
+  module:
+    - text
+id: paragraph.block_background_image.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: block_background_image
+label: Texto
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+field_type: text_long

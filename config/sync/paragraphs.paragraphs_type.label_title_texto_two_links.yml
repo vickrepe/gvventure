@@ -1,0 +1,10 @@
+uuid: fa289e78-0ea5-44c9-9019-94d3a1db6d93
+langcode: es
+status: true
+dependencies: {  }
+id: label_title_texto_two_links
+label: 'Etiqueta, titulo, texto y enlaces inferiores'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+uuid: fc01ee2b-205f-4bab-8361-59ce7bdc64f0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_selector_hn
+    - node.type.advanced_page
+  module:
+    - options
+id: node.advanced_page.field_hero_selector_hn
+field_name: field_hero_selector_hn
+entity_type: node
+bundle: advanced_page
+label: 'Selector Hn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

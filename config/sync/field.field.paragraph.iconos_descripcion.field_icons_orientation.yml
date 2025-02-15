@@ -1,0 +1,21 @@
+uuid: d87ab4b4-0d68-4404-9899-88fffc8e4dcf
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icons_orientation
+    - paragraphs.paragraphs_type.iconos_descripcion
+  module:
+    - options
+id: paragraph.iconos_descripcion.field_icons_orientation
+field_name: field_icons_orientation
+entity_type: paragraph
+bundle: iconos_descripcion
+label: 'Orientación de los iconos'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,23 @@
+uuid: e7108bd0-fe0c-4c89-aa92-cd1cdf8c7888
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_selector_hn
+    - paragraphs.paragraphs_type.mapa_con_texto_de_cabecera
+  module:
+    - options
+id: paragraph.mapa_con_texto_de_cabecera.field_selector_hn
+field_name: field_selector_hn
+entity_type: paragraph
+bundle: mapa_con_texto_de_cabecera
+label: 'Selector Hn'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: H1
+default_value_callback: ''
+settings: {  }
+field_type: list_string

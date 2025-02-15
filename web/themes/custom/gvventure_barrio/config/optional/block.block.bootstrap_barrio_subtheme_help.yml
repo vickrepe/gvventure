@@ -4,9 +4,9 @@ dependencies:
   module:
     - help
   theme:
-    - gvventure
-id: gvventure_help
-theme: gvventure
+    - gvventure_barrio
+id: gvventure_barrio_help
+theme: gvventure_barrio
 region: highlighted
 weight: -2
 provider: null

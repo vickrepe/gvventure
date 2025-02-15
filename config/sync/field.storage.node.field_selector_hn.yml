@@ -1,0 +1,39 @@
+uuid: 84e0ce2a-4516-43ac-ba60-4d4e87dab360
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_selector_hn
+field_name: field_selector_hn
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: H1
+      label: H1
+    -
+      value: H2
+      label: H2
+    -
+      value: H3
+      label: H3
+    -
+      value: H4
+      label: H4
+    -
+      value: H5
+      label: H5
+    -
+      value: H6
+      label: H6
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

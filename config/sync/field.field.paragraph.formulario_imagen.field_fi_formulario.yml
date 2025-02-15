@@ -1,0 +1,25 @@
+uuid: c33d77ab-e125-4006-a103-da88793755f5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_fi_formulario
+    - paragraphs.paragraphs_type.formulario_imagen
+  module:
+    - webform
+id: paragraph.formulario_imagen.field_fi_formulario
+field_name: field_fi_formulario
+entity_type: paragraph
+bundle: formulario_imagen
+label: Formulario
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

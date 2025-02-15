@@ -1,0 +1,19 @@
+uuid: 054e034d-0d59-4436-81b8-45d2fc4f3b1f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.ilustracion_y_texto
+id: paragraph.ilustracion_y_texto.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: ilustracion_y_texto
+label: Título
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

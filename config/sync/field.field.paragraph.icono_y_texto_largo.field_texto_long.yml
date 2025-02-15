@@ -1,0 +1,22 @@
+uuid: d7ff5d6c-4a1f-4a74-8b4d-f2e3fc6352a7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_long
+    - paragraphs.paragraphs_type.icono_y_texto_largo
+  module:
+    - text
+id: paragraph.icono_y_texto_largo.field_texto_long
+field_name: field_texto_long
+entity_type: paragraph
+bundle: icono_y_texto_largo
+label: Texto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

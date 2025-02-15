@@ -1,0 +1,30 @@
+uuid: 3381dbbd-75bd-40ae-a442-398b155b26d5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_faq_vista
+    - paragraphs.paragraphs_type.preguntas_frecuentes
+  module:
+    - viewsreference
+id: paragraph.preguntas_frecuentes.field_faq_vista
+field_name: field_faq_vista
+entity_type: paragraph
+bundle: preguntas_frecuentes
+label: Vista
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  plugin_types:
+    block: block
+  preselect_views:
+    preguntas_frecuentes: preguntas_frecuentes
+  enabled_settings: {  }
+field_type: viewsreference

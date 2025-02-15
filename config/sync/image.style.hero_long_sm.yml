@@ -1,0 +1,21 @@
+uuid: 232354c7-7d20-4215-833a-1c618ebb446c
+langcode: es
+status: true
+dependencies: {  }
+name: hero_long_sm
+label: 'Hero long sm'
+effects:
+  a14378e1-52d2-47af-bdfd-70ffd20abd36:
+    uuid: a14378e1-52d2-47af-bdfd-70ffd20abd36
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  d6214bec-e7b8-4527-90c6-f8494767ee5c:
+    uuid: d6214bec-e7b8-4527-90c6-f8494767ee5c
+    id: image_scale
+    weight: 2
+    data:
+      width: 576
+      height: null
+      upscale: true

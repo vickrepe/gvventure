@@ -4,9 +4,9 @@ dependencies:
   module:
     - search
   theme:
-    - gvventure
-id: gvventure_search_form_wide
-theme: gvventure
+    - gvventure_barrio
+id: gvventure_barrio_search_form_wide
+theme: gvventure_barrio
 region: top_header_form
 weight: -7
 provider: null

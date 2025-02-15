@@ -1,0 +1,21 @@
+uuid: 11be7993-7e17-4131-9e1e-5c8e9fd77394
+langcode: es
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_link_servicio
+field_name: field_link_servicio
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

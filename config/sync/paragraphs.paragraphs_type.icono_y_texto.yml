@@ -1,0 +1,10 @@
+uuid: c4c51b4b-4670-4f7b-85ac-088d090e4edb
+langcode: es
+status: true
+dependencies: {  }
+id: icono_y_texto
+label: 'Icono y texto'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

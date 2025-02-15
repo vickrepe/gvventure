@@ -1,0 +1,69 @@
+uuid: 144459dd-0cf7-4a7f-8106-718684e756e1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contenido_landing
+    - node.type.landing
+    - paragraphs.paragraphs_type.mapa_con_texto_de_cabecera
+    - paragraphs.paragraphs_type.paquetes_de_productos
+  module:
+    - entity_reference_revisions
+id: node.landing.field_contenido_landing
+field_name: field_contenido_landing
+entity_type: node
+bundle: landing
+label: 'Bloques de contenido'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      paquetes_de_productos: paquetes_de_productos
+      mapa_con_texto_de_cabecera: mapa_con_texto_de_cabecera
+    negate: 0
+    target_bundles_drag_drop:
+      contacto_traslados:
+        weight: 13
+        enabled: false
+      icono:
+        weight: 14
+        enabled: false
+      icono_y_texto:
+        weight: 15
+        enabled: false
+      icono_y_texto_largo:
+        weight: 16
+        enabled: false
+      iconos_con_descripcion_larga:
+        weight: 17
+        enabled: false
+      iconos_descripcion:
+        weight: 18
+        enabled: false
+      ilustracion_y_texto:
+        weight: 19
+        enabled: false
+      mapa_con_texto_de_cabecera:
+        weight: 22
+        enabled: true
+      paquetes_de_productos:
+        weight: 20
+        enabled: true
+      preguntas_frecuentes:
+        weight: 21
+        enabled: false
+      solicitar_info:
+        weight: 22
+        enabled: false
+      texo_info_con_modal:
+        weight: 23
+        enabled: false
+      titulo_con_texto_imagen_link:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

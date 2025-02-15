@@ -1,0 +1,19 @@
+uuid: c8806eb0-fe50-4d36-b866-66909874a829
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_servicio
+    - paragraphs.paragraphs_type.texo_info_con_modal
+id: paragraph.texo_info_con_modal.field_titulo_servicio
+field_name: field_titulo_servicio
+entity_type: paragraph
+bundle: texo_info_con_modal
+label: titulo_servicio
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

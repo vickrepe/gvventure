@@ -1,0 +1,9 @@
+uuid: ead2e215-bead-4f54-bdd8-673c5effc0f1
+langcode: ca
+status: true
+dependencies: {  }
+id: ca
+label: Catalán
+direction: ltr
+weight: 2
+locked: false

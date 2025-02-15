@@ -1,0 +1,21 @@
+uuid: 5455d09f-3d5d-41a4-af7d-382b907e0e0f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bg_selector_hn
+    - paragraphs.paragraphs_type.block_background_image
+  module:
+    - options
+id: paragraph.block_background_image.field_bg_selector_hn
+field_name: field_bg_selector_hn
+entity_type: paragraph
+bundle: block_background_image
+label: 'Selector Hn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

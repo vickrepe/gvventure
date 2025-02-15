@@ -1,0 +1,15 @@
+uuid: 63795ee3-1217-40d1-85b0-a8e2b69c5cd8
+langcode: es
+status: true
+dependencies: {  }
+name: dos_columnas_informacion_imagen_movil
+label: 'Dos columnas Información + Imagen movil'
+effects:
+  d56039d5-66ac-47f7-bef9-7254c8d6bc9d:
+    uuid: d56039d5-66ac-47f7-bef9-7254c8d6bc9d
+    id: image_scale
+    weight: 1
+    data:
+      width: 327
+      height: 280
+      upscale: false

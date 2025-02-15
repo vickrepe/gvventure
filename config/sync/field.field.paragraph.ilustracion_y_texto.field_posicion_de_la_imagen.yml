@@ -1,0 +1,23 @@
+uuid: ef176a36-7dc4-491b-b4b0-20f85d33c134
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_posicion_de_la_imagen
+    - paragraphs.paragraphs_type.ilustracion_y_texto
+  module:
+    - options
+id: paragraph.ilustracion_y_texto.field_posicion_de_la_imagen
+field_name: field_posicion_de_la_imagen
+entity_type: paragraph
+bundle: ilustracion_y_texto
+label: 'Posición de la imagen'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: 4092e4d3-c1b4-4171-a9f2-d08fe91aab76
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bg_color
+    - paragraphs.paragraphs_type.iconos_descripcion
+  module:
+    - options
+id: paragraph.iconos_descripcion.field_bg_color
+field_name: field_bg_color
+entity_type: paragraph
+bundle: iconos_descripcion
+label: 'Color de fondo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
