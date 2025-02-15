@@ -1,0 +1,18 @@
+uuid: d9ac62c6-578d-4e48-a248-432e3a37d2e0
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.card_servicios
+id: paragraph.card_servicios.created
+field_name: created
+entity_type: paragraph
+bundle: card_servicios
+label: 'Fecha de autoría'
+description: 'La hora en que se creó el Paragraph.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

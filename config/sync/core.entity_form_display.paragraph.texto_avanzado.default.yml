@@ -1,0 +1,32 @@
+uuid: 4f837a37-a4f7-44e2-8173-e8b6768d0c6b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texto_avanzado.field_texto_con_formato_largo
+    - paragraphs.paragraphs_type.texto_avanzado
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.texto_avanzado.default
+targetEntityType: paragraph
+bundle: texto_avanzado
+mode: default
+content:
+  field_texto_con_formato_largo:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,21 @@
+uuid: b261d8d8-4646-4736-8d82-797fe4809246
+langcode: es
+status: true
+dependencies: {  }
+name: hero_short_lg
+label: 'Hero short lg'
+effects:
+  1ac2b6dc-8ebc-4626-b04d-d09ce668cba3:
+    uuid: 1ac2b6dc-8ebc-4626-b04d-d09ce668cba3
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  535c8fb8-5e98-4af0-b875-8eaa848212fb:
+    uuid: 535c8fb8-5e98-4af0-b875-8eaa848212fb
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 992
+      height: 500
+      anchor: center-center

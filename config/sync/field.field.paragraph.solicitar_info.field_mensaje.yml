@@ -1,0 +1,22 @@
+uuid: 36f2d98d-ee1d-460c-bace-adb98c621117
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mensaje
+    - paragraphs.paragraphs_type.solicitar_info
+  module:
+    - text
+id: paragraph.solicitar_info.field_mensaje
+field_name: field_mensaje
+entity_type: paragraph
+bundle: solicitar_info
+label: Mensaje
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

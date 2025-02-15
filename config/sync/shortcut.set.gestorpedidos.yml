@@ -1,0 +1,6 @@
+uuid: 42d79bb5-076e-4bcb-9eb4-97991a38160e
+langcode: es
+status: true
+dependencies: {  }
+id: gestorpedidos
+label: GestorPedidos

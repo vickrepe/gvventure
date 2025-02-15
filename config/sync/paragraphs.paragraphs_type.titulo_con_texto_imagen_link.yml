@@ -1,0 +1,10 @@
+uuid: 0520e036-63fc-4899-93e0-1a35bb0bbaee
+langcode: es
+status: true
+dependencies: {  }
+id: titulo_con_texto_imagen_link
+label: 'titulo con texto imagen link'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

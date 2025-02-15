@@ -1,0 +1,19 @@
+uuid: 646ca240-afcc-42c6-86da-0f265003102a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_de_cabecera
+    - paragraphs.paragraphs_type.mapa_con_texto_de_cabecera
+id: paragraph.mapa_con_texto_de_cabecera.field_texto_de_cabecera
+field_name: field_texto_de_cabecera
+entity_type: paragraph
+bundle: mapa_con_texto_de_cabecera
+label: 'Texto de cabecera'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

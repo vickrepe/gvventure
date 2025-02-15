@@ -1,0 +1,19 @@
+uuid: 71f93208-8e8e-4ac0-8c0a-7897621659fb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label
+    - paragraphs.paragraphs_type.ilustracion_y_texto
+id: paragraph.ilustracion_y_texto.field_label
+field_name: field_label
+entity_type: paragraph
+bundle: ilustracion_y_texto
+label: Etiqueta
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

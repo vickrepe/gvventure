@@ -1,0 +1,18 @@
+uuid: e8da07a7-f045-4d84-abfe-0bc8af962ea6
+langcode: es
+status: true
+dependencies:
+  module:
+    - user
+id: user.user.metatag
+field_name: metatag
+entity_type: user
+bundle: user
+label: 'Metatags (Hidden field for JSON support)'
+description: 'Las metaetiquetas de la entidad.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

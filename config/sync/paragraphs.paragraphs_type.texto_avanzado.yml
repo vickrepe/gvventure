@@ -1,0 +1,10 @@
+uuid: ec9381d1-8522-4c1e-9a06-9dd87b2959e5
+langcode: es
+status: true
+dependencies: {  }
+id: texto_avanzado
+label: 'Texto avanzado'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

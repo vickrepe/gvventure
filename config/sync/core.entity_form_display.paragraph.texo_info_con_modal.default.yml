@@ -1,0 +1,63 @@
+uuid: 2326fcfc-9984-4b8d-87a8-4ae8cb183f71
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texo_info_con_modal.field_detalle_servicio
+    - field.field.paragraph.texo_info_con_modal.field_imagen_servicio
+    - field.field.paragraph.texo_info_con_modal.field_link_servicio
+    - field.field.paragraph.texo_info_con_modal.field_titulo_servicio
+    - paragraphs.paragraphs_type.texo_info_con_modal
+  module:
+    - field_layout
+    - layout_discovery
+    - media_library
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.texo_info_con_modal.default
+targetEntityType: paragraph
+bundle: texo_info_con_modal
+mode: default
+content:
+  field_detalle_servicio:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_imagen_servicio:
+    type: media_library_widget
+    weight: 2
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_link_servicio:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_titulo_servicio:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

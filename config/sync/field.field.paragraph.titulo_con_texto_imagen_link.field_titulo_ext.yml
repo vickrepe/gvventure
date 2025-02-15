@@ -1,0 +1,19 @@
+uuid: f15699d9-6fc9-4110-a34e-b5f1adedb8ef
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_ext
+    - paragraphs.paragraphs_type.titulo_con_texto_imagen_link
+id: paragraph.titulo_con_texto_imagen_link.field_titulo_ext
+field_name: field_titulo_ext
+entity_type: paragraph
+bundle: titulo_con_texto_imagen_link
+label: 'Título ext'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

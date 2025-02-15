@@ -1,0 +1,19 @@
+uuid: fe4edfc5-6f75-4e82-8c8b-7e675ea8c7e9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dos_columnas_titulo
+    - paragraphs.paragraphs_type.dos_columnas_informacion_imagen
+id: paragraph.dos_columnas_informacion_imagen.field_dos_columnas_titulo
+field_name: field_dos_columnas_titulo
+entity_type: paragraph
+bundle: dos_columnas_informacion_imagen
+label: Título
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

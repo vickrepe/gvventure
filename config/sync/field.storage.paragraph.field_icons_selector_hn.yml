@@ -1,0 +1,39 @@
+uuid: 1409c44e-608b-48ea-9eb1-4cd3d2ebbb8b
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_icons_selector_hn
+field_name: field_icons_selector_hn
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: h1
+      label: H1
+    -
+      value: h2
+      label: H2
+    -
+      value: h3
+      label: H3
+    -
+      value: h4
+      label: H4
+    -
+      value: h5
+      label: H5
+    -
+      value: h6
+      label: H6
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

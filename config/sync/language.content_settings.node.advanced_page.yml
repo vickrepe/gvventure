@@ -1,0 +1,16 @@
+uuid: cd8dc121-457e-4d4b-a04b-b651fef72dd8
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.advanced_page
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.advanced_page
+target_entity_type_id: node
+target_bundle: advanced_page
+default_langcode: site_default
+language_alterable: true

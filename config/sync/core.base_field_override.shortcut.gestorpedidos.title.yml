@@ -1,0 +1,18 @@
+uuid: 58334177-1b79-4c87-a73b-583d38c4ce55
+langcode: es
+status: true
+dependencies:
+  config:
+    - shortcut.set.gestorpedidos
+id: shortcut.gestorpedidos.title
+field_name: title
+entity_type: shortcut
+bundle: gestorpedidos
+label: Name
+description: 'El nombre del atajo'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

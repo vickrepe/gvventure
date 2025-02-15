@@ -1,0 +1,42 @@
+uuid: 1e85db7e-a9d0-4371-8aed-730d94a6f124
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.contacto_traslados.field_contacto_traslados
+    - field.field.paragraph.contacto_traslados.field_titulo_formulario
+    - paragraphs.paragraphs_type.contacto_traslados
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - webform
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.contacto_traslados.default
+targetEntityType: paragraph
+bundle: contacto_traslados
+mode: default
+content:
+  field_contacto_traslados:
+    type: webform_entity_reference_select
+    weight: 1
+    region: content
+    settings:
+      default_data: true
+      webforms: {  }
+    third_party_settings: {  }
+  field_titulo_formulario:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

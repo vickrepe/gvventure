@@ -1,0 +1,90 @@
+uuid: 4fe2a3dc-7488-498c-9592-4829c386ef8c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_color
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_enlace
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_etiqueta
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_imagen
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_selector_hn
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_texto
+    - field.field.paragraph.dos_columnas_informacion_imagen.field_dos_columnas_titulo
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.dos_columnas_informacion_imagen
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - link
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.dos_columnas_informacion_imagen.default
+targetEntityType: paragraph
+bundle: dos_columnas_informacion_imagen
+mode: default
+content:
+  field_dos_columnas_color:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_dos_columnas_enlace:
+    type: link_default
+    weight: 6
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_dos_columnas_etiqueta:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_dos_columnas_imagen:
+    type: image_image
+    weight: 5
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_dos_columnas_selector_hn:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_dos_columnas_texto:
+    type: text_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_dos_columnas_titulo:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

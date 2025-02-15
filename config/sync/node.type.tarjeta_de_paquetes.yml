@@ -1,0 +1,18 @@
+uuid: deb14952-1789-4287-b24d-3a0c7a9e30b7
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Tarjeta de paquetes'
+type: tarjeta_de_paquetes
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

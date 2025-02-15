@@ -1,0 +1,10 @@
+uuid: 705a70bb-745b-4cd1-9263-811a09d21071
+langcode: es
+status: true
+dependencies: {  }
+id: dos_columnas_informacion_imagen
+label: 'Dos columnas Información + Imagen'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,18 @@
+uuid: 2f27c68f-5b89-4326-9220-183f24463b17
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pg_block_view
+id: paragraph.pg_block_view.created
+field_name: created
+entity_type: paragraph
+bundle: pg_block_view
+label: 'Fecha de autoría'
+description: 'La hora en que se creó el Paragraph.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

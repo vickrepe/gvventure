@@ -1,0 +1,21 @@
+uuid: 9fe2a086-957d-4cf6-ae96-7b4e8b53dec9
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_servicio
+  module:
+    - text
+id: taxonomy_term.tipo_servicio.description
+field_name: description
+entity_type: taxonomy_term
+bundle: tipo_servicio
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

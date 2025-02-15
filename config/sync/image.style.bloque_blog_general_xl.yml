@@ -1,0 +1,21 @@
+uuid: 9829dacb-d135-4023-951f-6d463a3b90b3
+langcode: es
+status: true
+dependencies: {  }
+name: bloque_blog_general_xl
+label: 'Bloque blog general xl'
+effects:
+  ce420295-a0a5-422c-a1c8-72d1d5168948:
+    uuid: ce420295-a0a5-422c-a1c8-72d1d5168948
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  aecc3222-1dc6-4782-b959-3ca92e8cca79:
+    uuid: aecc3222-1dc6-4782-b959-3ca92e8cca79
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 288
+      height: 182
+      anchor: center-center

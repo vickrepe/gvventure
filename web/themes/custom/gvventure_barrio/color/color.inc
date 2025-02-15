@@ -115,7 +115,7 @@ $info = [
   ],
 
   // Preview files.
-  'preview_library' => 'gvventure/color.preview',
+  'preview_library' => 'gvventure_barrio/color.preview',
   'preview_html' => 'color/preview.html',
 
   // Attachments.
@@ -123,7 +123,7 @@ $info = [
     'drupalSettings' => [
       'color' => [
         // Put the logo path into JavaScript for the live preview.
-        'logo' => theme_get_setting('logo.url', 'gvventure'),
+        'logo' => theme_get_setting('logo.url', 'gvventure_barrio'),
       ],
     ],
   ],

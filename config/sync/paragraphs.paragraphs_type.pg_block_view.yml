@@ -1,0 +1,10 @@
+uuid: 96735493-cfc1-44e8-a8d2-a0448a52e027
+langcode: es
+status: true
+dependencies: {  }
+id: pg_block_view
+label: 'Bloque de blog'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

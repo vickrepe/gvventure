@@ -1,0 +1,19 @@
+uuid: 238fbdfa-6e49-4c03-bb73-ad30ba8eb95e
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_telefono_landing
+field_name: field_telefono_landing
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

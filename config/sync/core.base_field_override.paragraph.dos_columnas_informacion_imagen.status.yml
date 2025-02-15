@@ -1,0 +1,22 @@
+uuid: 641604d5-0ae2-4312-8426-f6132188867a
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.dos_columnas_informacion_imagen
+id: paragraph.dos_columnas_informacion_imagen.status
+field_name: status
+entity_type: paragraph
+bundle: dos_columnas_informacion_imagen
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

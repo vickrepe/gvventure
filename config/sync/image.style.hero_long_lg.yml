@@ -1,0 +1,21 @@
+uuid: 98d2bde9-2cbf-4916-883e-88d10b6e127b
+langcode: es
+status: true
+dependencies: {  }
+name: hero_long_lg
+label: 'Hero long lg'
+effects:
+  8af1707d-d162-4a7c-85da-5399a0e4b88e:
+    uuid: 8af1707d-d162-4a7c-85da-5399a0e4b88e
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  bda8a4b0-0236-4423-a0ac-04e65f217772:
+    uuid: bda8a4b0-0236-4423-a0ac-04e65f217772
+    id: image_scale
+    weight: 2
+    data:
+      width: 1024
+      height: null
+      upscale: true

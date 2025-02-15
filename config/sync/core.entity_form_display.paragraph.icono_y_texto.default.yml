@@ -1,0 +1,57 @@
+uuid: a167fd38-a851-4a91-a2fb-0c4d2157839e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icono_y_texto.field_media
+    - field.field.paragraph.icono_y_texto.field_text
+    - field.field.paragraph.icono_y_texto.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.icono_y_texto
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.icono_y_texto.default
+targetEntityType: paragraph
+bundle: icono_y_texto
+mode: default
+content:
+  field_media:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_text:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,21 @@
+uuid: 97c6d451-d950-43cd-b01e-0c298b7378c2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_selector_hn_etiqueta
+    - node.type.advanced_page
+  module:
+    - options
+id: node.advanced_page.field_hero_selector_hn_etiqueta
+field_name: field_hero_selector_hn_etiqueta
+entity_type: node
+bundle: advanced_page
+label: 'Selector Hn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

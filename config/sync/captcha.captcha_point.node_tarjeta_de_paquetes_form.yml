@@ -1,0 +1,7 @@
+uuid: 8b4f68d5-47ca-4b7c-a3ef-38f0b2530539
+langcode: es
+status: false
+dependencies: {  }
+formId: node_tarjeta_de_paquetes_form
+captchaType: default
+label: node_tarjeta_de_paquetes_form

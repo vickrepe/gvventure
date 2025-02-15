@@ -1,0 +1,30 @@
+uuid: 5b5a1bb2-a4bc-453b-bbd8-419e51b9fdee
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_individuales_vista
+    - paragraphs.paragraphs_type.productos_individuales
+  module:
+    - viewsreference
+id: paragraph.productos_individuales.field_individuales_vista
+field_name: field_individuales_vista
+entity_type: paragraph
+bundle: productos_individuales
+label: Vista
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  plugin_types:
+    block: block
+  preselect_views:
+    productos_individuales: productos_individuales
+  enabled_settings: {  }
+field_type: viewsreference

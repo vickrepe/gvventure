@@ -1,0 +1,18 @@
+uuid: acca1c4e-bb9c-493e-95e4-2bb78f00b587
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.cards_descripcion
+id: paragraph.cards_descripcion.created
+field_name: created
+entity_type: paragraph
+bundle: cards_descripcion
+label: 'Fecha de autoría'
+description: 'La hora en que se creó el Paragraph.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,10 @@
+uuid: 7a82e7a9-c4de-49fd-bd16-c307e8613918
+langcode: es
+status: true
+dependencies: {  }
+id: card_servicios
+label: 'Card servicios'
+icon_uuid: null
+icon_default: null
+description: 'Card con: Imagen, precio, titulo, listado y enlace.'
+behavior_plugins: {  }

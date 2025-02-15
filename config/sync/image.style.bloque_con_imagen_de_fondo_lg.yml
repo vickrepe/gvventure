@@ -1,0 +1,21 @@
+uuid: 6d01786b-e6a3-4875-9f2c-c55dc9ea4d41
+langcode: es
+status: true
+dependencies: {  }
+name: bloque_con_imagen_de_fondo_lg
+label: 'Bloque con imagen de fondo lg'
+effects:
+  b25f5262-9acc-40ad-8a28-5a1b0a5c99c7:
+    uuid: b25f5262-9acc-40ad-8a28-5a1b0a5c99c7
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  6c96f19f-d1e1-4a72-855d-af063827e41c:
+    uuid: 6c96f19f-d1e1-4a72-855d-af063827e41c
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 992
+      height: 500
+      anchor: center-center

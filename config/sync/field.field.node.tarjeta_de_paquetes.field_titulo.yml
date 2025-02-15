@@ -1,0 +1,22 @@
+uuid: 8210a9a8-a770-4477-add6-92fb6da5daf5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo
+    - node.type.tarjeta_de_paquetes
+  module:
+    - text
+id: node.tarjeta_de_paquetes.field_titulo
+field_name: field_titulo
+entity_type: node
+bundle: tarjeta_de_paquetes
+label: Título
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

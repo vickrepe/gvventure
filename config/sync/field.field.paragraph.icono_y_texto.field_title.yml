@@ -1,0 +1,19 @@
+uuid: de15635c-273e-4dee-8f34-3c8cf55c3d5f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.icono_y_texto
+id: paragraph.icono_y_texto.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: icono_y_texto
+label: Título
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

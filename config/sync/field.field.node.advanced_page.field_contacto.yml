@@ -1,0 +1,33 @@
+uuid: fac40cbc-1b63-4839-8153-32fdb884ab8d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contacto
+    - node.type.advanced_page
+    - webform.webform.contacto_cabecera
+  module:
+    - webform
+id: node.advanced_page.field_contacto
+field_name: field_contacto
+entity_type: node
+bundle: advanced_page
+label: Contacto
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: b628e52a-a9be-46c9-9600-f299e917ecae
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    webform_access_group: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

@@ -1,0 +1,21 @@
+uuid: e51d69b7-219c-4edb-9f7c-4e84323ba372
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dos_columnas_selector_hn
+    - paragraphs.paragraphs_type.dos_columnas_informacion_imagen
+  module:
+    - options
+id: paragraph.dos_columnas_informacion_imagen.field_dos_columnas_selector_hn
+field_name: field_dos_columnas_selector_hn
+entity_type: paragraph
+bundle: dos_columnas_informacion_imagen
+label: 'Selector Hn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,74 @@
+uuid: 45bd63ed-efb4-45c1-8e2a-25a995bd2f84
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_servicios.field_item_listt
+    - field.field.paragraph.card_servicios.field_link
+    - field.field.paragraph.card_servicios.field_media
+    - field.field.paragraph.card_servicios.field_price
+    - field.field.paragraph.card_servicios.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.card_servicios
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - link
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.card_servicios.default
+targetEntityType: paragraph
+bundle: card_servicios
+mode: default
+content:
+  field_item_listt:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_media:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_price:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

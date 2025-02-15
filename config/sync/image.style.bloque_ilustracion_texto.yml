@@ -1,0 +1,21 @@
+uuid: 84d3e56a-d215-4924-aceb-868d3a0f6b68
+langcode: es
+status: true
+dependencies: {  }
+name: bloque_ilustracion_texto
+label: 'Bloque ilustración texto'
+effects:
+  82fd6656-9e1d-40d7-ab7b-cedfc0230b82:
+    uuid: 82fd6656-9e1d-40d7-ab7b-cedfc0230b82
+    id: image_scale
+    weight: 1
+    data:
+      width: 450
+      height: 300
+      upscale: false
+  d9f59beb-5aff-410b-86ea-2093b392699b:
+    uuid: d9f59beb-5aff-410b-86ea-2093b392699b
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

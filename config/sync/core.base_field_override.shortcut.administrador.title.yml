@@ -1,0 +1,18 @@
+uuid: 644a265c-be4f-4b44-9af5-0546ed42e3e7
+langcode: es
+status: true
+dependencies:
+  config:
+    - shortcut.set.administrador
+id: shortcut.administrador.title
+field_name: title
+entity_type: shortcut
+bundle: administrador
+label: Nombre
+description: 'El nombre del atajo'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

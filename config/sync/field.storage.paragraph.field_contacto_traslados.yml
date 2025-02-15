@@ -1,0 +1,20 @@
+uuid: db6e260c-2911-4532-8514-531e8cdb4383
+langcode: es
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - webform
+id: paragraph.field_contacto_traslados
+field_name: field_contacto_traslados
+entity_type: paragraph
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

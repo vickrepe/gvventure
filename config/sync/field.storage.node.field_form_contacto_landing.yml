@@ -1,0 +1,20 @@
+uuid: f0de16bc-bf6f-45e8-8595-7ba14ddb6f16
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - webform
+id: node.field_form_contacto_landing
+field_name: field_form_contacto_landing
+entity_type: node
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

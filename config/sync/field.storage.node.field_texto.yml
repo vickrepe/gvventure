@@ -1,0 +1,19 @@
+uuid: eb046300-04d7-4e30-b7de-a9a70ab77a69
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_texto
+field_name: field_texto
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

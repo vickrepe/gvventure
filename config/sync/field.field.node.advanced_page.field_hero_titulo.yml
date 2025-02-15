@@ -1,0 +1,19 @@
+uuid: 77b2a3c2-f086-4d73-8804-575b387a71be
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_titulo
+    - node.type.advanced_page
+id: node.advanced_page.field_hero_titulo
+field_name: field_hero_titulo
+entity_type: node
+bundle: advanced_page
+label: Título
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

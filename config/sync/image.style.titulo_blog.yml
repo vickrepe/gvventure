@@ -1,0 +1,23 @@
+uuid: 799ad9fe-2fb2-466a-bd84-9d89d1123fd0
+langcode: es
+status: true
+dependencies:
+  module:
+    - focal_point
+name: titulo_blog
+label: 'Título blog'
+effects:
+  5c5f629a-0ddf-4483-8333-6365f86f9e5d:
+    uuid: 5c5f629a-0ddf-4483-8333-6365f86f9e5d
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1440
+      height: 411
+      crop_type: focal_point
+  5885159d-a6ff-44ce-89a9-677c73ff20ff:
+    uuid: 5885159d-a6ff-44ce-89a9-677c73ff20ff
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

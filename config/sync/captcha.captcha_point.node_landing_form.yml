@@ -1,0 +1,7 @@
+uuid: dbbc5527-6ff2-4915-9525-04ec769fee2d
+langcode: es
+status: false
+dependencies: {  }
+formId: node_landing_form
+captchaType: default
+label: node_landing_form

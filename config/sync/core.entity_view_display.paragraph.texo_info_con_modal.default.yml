@@ -1,0 +1,48 @@
+uuid: 43a7ff93-004e-4385-97ac-6bb7e06e3b80
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texo_info_con_modal.field_detalle_servicio
+    - field.field.paragraph.texo_info_con_modal.field_imagen_servicio
+    - field.field.paragraph.texo_info_con_modal.field_link_servicio
+    - field.field.paragraph.texo_info_con_modal.field_titulo_servicio
+    - paragraphs.paragraphs_type.texo_info_con_modal
+id: paragraph.texo_info_con_modal.default
+targetEntityType: paragraph
+bundle: texo_info_con_modal
+mode: default
+content:
+  field_detalle_servicio:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_imagen_servicio:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_link_servicio:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_titulo_servicio:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

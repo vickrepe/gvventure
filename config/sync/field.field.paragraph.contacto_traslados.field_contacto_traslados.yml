@@ -1,0 +1,25 @@
+uuid: 5032bd59-d52a-4cd4-848d-bc361eee8ede
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_contacto_traslados
+    - paragraphs.paragraphs_type.contacto_traslados
+  module:
+    - webform
+id: paragraph.contacto_traslados.field_contacto_traslados
+field_name: field_contacto_traslados
+entity_type: paragraph
+bundle: contacto_traslados
+label: 'Contacto traslados'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

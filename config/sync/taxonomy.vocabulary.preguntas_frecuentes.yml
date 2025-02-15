@@ -1,0 +1,9 @@
+uuid: 2070594a-df8f-4554-8478-2ed7a305221e
+langcode: es
+status: true
+dependencies: {  }
+name: 'Preguntas frecuentes'
+vid: preguntas_frecuentes
+description: null
+weight: 0
+new_revision: false

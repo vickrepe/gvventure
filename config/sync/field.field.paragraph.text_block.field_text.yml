@@ -1,0 +1,24 @@
+uuid: 31359e46-5a49-4b89-9a10-56cbb41f63dc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.text_block
+  module:
+    - text
+id: paragraph.text_block.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: text_block
+label: Texto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

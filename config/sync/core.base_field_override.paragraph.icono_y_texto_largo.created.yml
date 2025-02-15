@@ -1,0 +1,18 @@
+uuid: f158a86c-9dd6-4530-ab86-da37d39b6a48
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.icono_y_texto_largo
+id: paragraph.icono_y_texto_largo.created
+field_name: created
+entity_type: paragraph
+bundle: icono_y_texto_largo
+label: 'Fecha de autoría'
+description: 'La hora en que se creó el Paragraph.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

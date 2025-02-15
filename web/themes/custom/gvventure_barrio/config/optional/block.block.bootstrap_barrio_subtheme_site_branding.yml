@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - gvventure
-id: gvventure_site_branding
-theme: gvventure
+    - gvventure_barrio
+id: gvventure_barrio_site_branding
+theme: gvventure_barrio
 region: header
 weight: -7
 provider: null

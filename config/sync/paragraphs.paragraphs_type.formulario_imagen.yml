@@ -1,0 +1,10 @@
+uuid: aaac3a6f-8de0-404d-97f4-603e215cc1f8
+langcode: es
+status: true
+dependencies: {  }
+id: formulario_imagen
+label: 'Formulario + Imagen'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

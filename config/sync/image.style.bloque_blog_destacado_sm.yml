@@ -1,0 +1,21 @@
+uuid: 427515a5-01c4-460d-992c-f994cea0b92b
+langcode: es
+status: true
+dependencies: {  }
+name: bloque_blog_destacado_sm
+label: 'Bloque blog destacado sm'
+effects:
+  cdcaef6e-35d3-4e57-bfe3-b0544b88e1b3:
+    uuid: cdcaef6e-35d3-4e57-bfe3-b0544b88e1b3
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  07e209bf-03d6-44ab-aee4-eb4f2c386ca3:
+    uuid: 07e209bf-03d6-44ab-aee4-eb4f2c386ca3
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 328
+      height: 286
+      anchor: center-center

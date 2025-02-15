@@ -1,0 +1,21 @@
+uuid: 8764c3c3-39a8-4a3a-a00b-96f1aad1856a
+langcode: es
+status: true
+dependencies: {  }
+name: ilustracion_y_texto_xs
+label: 'Ilustración y texto xs'
+effects:
+  4a907489-758a-471f-abe6-0a85582bf217:
+    uuid: 4a907489-758a-471f-abe6-0a85582bf217
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  77e0adb4-98cf-4b8e-9dab-ff166060b32c:
+    uuid: 77e0adb4-98cf-4b8e-9dab-ff166060b32c
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 328
+      height: 280
+      anchor: center-center

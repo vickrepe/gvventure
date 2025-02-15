@@ -1,0 +1,10 @@
+uuid: 19a4a926-fae4-4279-8374-da9574230531
+langcode: es
+status: true
+dependencies: {  }
+id: paquetes_de_productos
+label: 'Paquetes de productos'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

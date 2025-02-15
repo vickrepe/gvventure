@@ -1,0 +1,15 @@
+uuid: 6a6e2e81-172b-4bd2-b016-df0352c51b13
+langcode: es
+status: true
+dependencies: {  }
+name: ilustracion_pagina_home
+label: 'Ilustración pagina home'
+effects:
+  10f8cada-e74c-4839-a17a-d1a84ece15a1:
+    uuid: 10f8cada-e74c-4839-a17a-d1a84ece15a1
+    id: image_scale
+    weight: 1
+    data:
+      width: 630
+      height: 585
+      upscale: false

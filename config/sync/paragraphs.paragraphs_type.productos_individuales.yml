@@ -1,0 +1,10 @@
+uuid: 3b511d80-bd5b-4fa8-a107-4660873af45c
+langcode: es
+status: true
+dependencies: {  }
+id: productos_individuales
+label: 'Productos individuales'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

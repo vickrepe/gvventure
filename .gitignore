@@ -7,8 +7,9 @@ Thumbs.db
 .settings.php
 
 # Caché y logs
-sites/default/files/*
-sites/default/private/*
+web/sites/default/files/*
+
+web/sites/default/private/*
 *.log
 
 # Dependencias de Composer

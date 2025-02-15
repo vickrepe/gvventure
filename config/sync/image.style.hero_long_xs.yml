@@ -1,0 +1,21 @@
+uuid: 4d96ed49-54ed-4fcd-baf7-162cb149bd6a
+langcode: es
+status: true
+dependencies: {  }
+name: hero_long_xs
+label: 'Hero long xs'
+effects:
+  fdf1ed06-94ac-4d4c-b112-e0547e6b2267:
+    uuid: fdf1ed06-94ac-4d4c-b112-e0547e6b2267
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  d567274d-1cbc-4118-b455-8b2b82f53c37:
+    uuid: d567274d-1cbc-4118-b455-8b2b82f53c37
+    id: image_scale_and_crop
+    weight: 3
+    data:
+      width: 360
+      height: 552
+      anchor: center-center

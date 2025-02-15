@@ -1,0 +1,22 @@
+uuid: 38dd66c4-648f-4388-b6be-60fcfdef157d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_individuales_texto
+    - paragraphs.paragraphs_type.productos_individuales
+  module:
+    - text
+id: paragraph.productos_individuales.field_individuales_texto
+field_name: field_individuales_texto
+entity_type: paragraph
+bundle: productos_individuales
+label: Texto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

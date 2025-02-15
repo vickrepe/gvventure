@@ -1,0 +1,15 @@
+uuid: de61e73b-3741-4f96-93e2-f88f8a104cc5
+langcode: es
+status: true
+dependencies: {  }
+name: icono_producto
+label: 'Icono producto'
+effects:
+  f46c6fbc-cd4c-4112-8d78-f9e43676ccb7:
+    uuid: f46c6fbc-cd4c-4112-8d78-f9e43676ccb7
+    id: image_scale
+    weight: 1
+    data:
+      width: 45
+      height: 45
+      upscale: false

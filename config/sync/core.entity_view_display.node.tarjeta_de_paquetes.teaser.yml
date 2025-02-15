@@ -1,0 +1,31 @@
+uuid: ec9b3daa-4108-4d23-b8d1-e863a98a88c8
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tarjeta_de_paquetes.field_boton
+    - field.field.node.tarjeta_de_paquetes.field_enlaces
+    - field.field.node.tarjeta_de_paquetes.field_icono
+    - field.field.node.tarjeta_de_paquetes.field_texto
+    - field.field.node.tarjeta_de_paquetes.field_titulo
+    - node.type.tarjeta_de_paquetes
+  module:
+    - user
+id: node.tarjeta_de_paquetes.teaser
+targetEntityType: node
+bundle: tarjeta_de_paquetes
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_boton: true
+  field_enlaces: true
+  field_icono: true
+  field_texto: true
+  field_titulo: true
+  langcode: true

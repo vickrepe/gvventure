@@ -1,0 +1,47 @@
+uuid: c5e70a98-9ecd-4844-a754-88fe14bf2929
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.solicitar_info.field_enlace
+    - field.field.paragraph.solicitar_info.field_mensaje
+    - paragraphs.paragraphs_type.solicitar_info
+  module:
+    - field_layout
+    - layout_discovery
+    - link
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.solicitar_info.default
+targetEntityType: paragraph
+bundle: solicitar_info
+mode: default
+content:
+  field_enlace:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_mensaje:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

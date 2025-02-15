@@ -1,0 +1,19 @@
+uuid: d44386a0-09c2-4c08-aef9-b80891807abb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.cards_descripcion
+id: paragraph.cards_descripcion.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: cards_descripcion
+label: Título
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

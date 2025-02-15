@@ -1,0 +1,9 @@
+uuid: c9b9fc10-2540-49b1-ae6a-c09542942fbc
+langcode: es
+status: true
+dependencies: {  }
+name: 'Categorías blog'
+vid: categorias_blog
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,22 @@
+uuid: 176bd636-3f6c-4d8b-924a-0c003da9eaca
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pg_block_view
+id: paragraph.pg_block_view.status
+field_name: status
+entity_type: paragraph
+bundle: pg_block_view
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

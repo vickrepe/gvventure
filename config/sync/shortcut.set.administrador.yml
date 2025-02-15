@@ -1,0 +1,6 @@
+uuid: 9d06bf37-7bb4-40ba-b894-a52663dfa1ee
+langcode: es
+status: true
+dependencies: {  }
+id: administrador
+label: Administrador

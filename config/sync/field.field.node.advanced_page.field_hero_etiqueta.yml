@@ -1,0 +1,19 @@
+uuid: dac549e3-989d-4f21-8317-f17fe41ef2ec
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_etiqueta
+    - node.type.advanced_page
+id: node.advanced_page.field_hero_etiqueta
+field_name: field_hero_etiqueta
+entity_type: node
+bundle: advanced_page
+label: Etiqueta
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

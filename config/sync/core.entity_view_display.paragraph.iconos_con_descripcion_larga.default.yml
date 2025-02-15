@@ -1,0 +1,42 @@
+uuid: 3c7182bd-0548-4bbc-88a1-181f316c511e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.iconos_con_descripcion_larga.field_iconos_long
+    - field.field.paragraph.iconos_con_descripcion_larga.field_texto
+    - field.field.paragraph.iconos_con_descripcion_larga.field_titulo
+    - paragraphs.paragraphs_type.iconos_con_descripcion_larga
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.iconos_con_descripcion_larga.default
+targetEntityType: paragraph
+bundle: iconos_con_descripcion_larga
+mode: default
+content:
+  field_iconos_long:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_texto:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_titulo:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

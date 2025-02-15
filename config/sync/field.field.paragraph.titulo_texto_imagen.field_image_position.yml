@@ -1,0 +1,21 @@
+uuid: 0010ece6-c737-4835-8f88-963bb4296a63
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_position
+    - paragraphs.paragraphs_type.titulo_texto_imagen
+  module:
+    - options
+id: paragraph.titulo_texto_imagen.field_image_position
+field_name: field_image_position
+entity_type: paragraph
+bundle: titulo_texto_imagen
+label: 'Posición de la imagen'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

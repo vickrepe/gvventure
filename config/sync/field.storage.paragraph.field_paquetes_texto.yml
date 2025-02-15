@@ -1,0 +1,19 @@
+uuid: 821be0d0-0c5c-4074-ac84-8805a976e72e
+langcode: es
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_paquetes_texto
+field_name: field_paquetes_texto
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

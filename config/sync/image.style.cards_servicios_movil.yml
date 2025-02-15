@@ -1,0 +1,21 @@
+uuid: 2b52cdc9-c695-41b4-b4ee-b391f9e2a61f
+langcode: es
+status: true
+dependencies: {  }
+name: cards_servicios_movil
+label: 'Cards servicios movil'
+effects:
+  c1d0b33a-8ca5-4ead-a5cb-0c25f0bec3ac:
+    uuid: c1d0b33a-8ca5-4ead-a5cb-0c25f0bec3ac
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  3a4f4c73-8b75-4580-a434-dafd521e4d9a:
+    uuid: 3a4f4c73-8b75-4580-a434-dafd521e4d9a
+    id: image_scale_and_crop
+    weight: 3
+    data:
+      width: 328
+      height: 182
+      anchor: center-center

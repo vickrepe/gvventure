@@ -1,0 +1,22 @@
+uuid: d6bff226-f712-4afb-b305-8eed5ac24f1a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_texto
+    - node.type.advanced_page
+  module:
+    - text
+id: node.advanced_page.field_hero_texto
+field_name: field_hero_texto
+entity_type: node
+bundle: advanced_page
+label: Texto
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

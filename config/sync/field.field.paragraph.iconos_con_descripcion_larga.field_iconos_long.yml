@@ -1,0 +1,55 @@
+uuid: d5ce159b-54b2-43dd-ac6e-1c40804ec718
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_iconos_long
+    - paragraphs.paragraphs_type.icono_y_texto_largo
+    - paragraphs.paragraphs_type.iconos_con_descripcion_larga
+  module:
+    - entity_reference_revisions
+id: paragraph.iconos_con_descripcion_larga.field_iconos_long
+field_name: field_iconos_long
+entity_type: paragraph
+bundle: iconos_con_descripcion_larga
+label: Iconos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      icono_y_texto_largo: icono_y_texto_largo
+    negate: 0
+    target_bundles_drag_drop:
+      contacto_traslados:
+        weight: 9
+        enabled: false
+      icono:
+        weight: 10
+        enabled: false
+      icono_y_texto:
+        weight: 13
+        enabled: false
+      icono_y_texto_largo:
+        weight: 15
+        enabled: true
+      iconos_con_descripcion_larga:
+        weight: 11
+        enabled: false
+      iconos_descripcion:
+        weight: 12
+        enabled: false
+      ilustracion_y_texto:
+        weight: 14
+        enabled: false
+      texo_info_con_modal:
+        weight: 15
+        enabled: false
+      titulo_con_texto_imagen_link:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

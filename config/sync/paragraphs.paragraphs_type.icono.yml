@@ -1,0 +1,10 @@
+uuid: 507edae5-8b40-411d-91aa-a97c8cbe8fa5
+langcode: es
+status: true
+dependencies: {  }
+id: icono
+label: 'Icono título y texto'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

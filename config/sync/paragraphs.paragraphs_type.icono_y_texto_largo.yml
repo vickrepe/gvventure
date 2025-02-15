@@ -1,0 +1,10 @@
+uuid: 6217e68d-33a7-442a-8d6c-c3aca99d5ea5
+langcode: es
+status: true
+dependencies: {  }
+id: icono_y_texto_largo
+label: 'Icono y texto largo'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

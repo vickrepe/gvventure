@@ -1,0 +1,22 @@
+uuid: ac3e76b2-5018-4d3b-a590-546f385d3143
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_formulario
+    - paragraphs.paragraphs_type.contacto_traslados
+  module:
+    - text
+id: paragraph.contacto_traslados.field_titulo_formulario
+field_name: field_titulo_formulario
+entity_type: paragraph
+bundle: contacto_traslados
+label: 'Título formulario'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

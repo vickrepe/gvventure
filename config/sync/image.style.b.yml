@@ -1,0 +1,21 @@
+uuid: 24960f5a-7ec6-4b89-9a40-1a502da949a5
+langcode: es
+status: true
+dependencies: {  }
+name: b
+label: 'Blog relacionados'
+effects:
+  ff89a79e-73fd-42ce-b68d-9479ec9cab2a:
+    uuid: ff89a79e-73fd-42ce-b68d-9479ec9cab2a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 297
+      height: 164
+      anchor: center-center
+  5737ede0-959f-4b9c-926a-1e16bd49c715:
+    uuid: 5737ede0-959f-4b9c-926a-1e16bd49c715
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

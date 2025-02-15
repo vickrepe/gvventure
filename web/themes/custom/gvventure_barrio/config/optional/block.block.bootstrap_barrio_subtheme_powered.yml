@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - gvventure
-id: gvventure_powered
-theme: gvventure
+    - gvventure_barrio
+id: gvventure_barrio_powered
+theme: gvventure_barrio
 region: footer_fifth
 weight: -7
 provider: null

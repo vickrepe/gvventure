@@ -1,0 +1,21 @@
+uuid: ad2627e9-f7f1-4696-84a9-dba8b18737fc
+langcode: es
+status: true
+dependencies: {  }
+name: bloque_blog_destacado_lg
+label: 'Bloque blog destacado lg'
+effects:
+  9996d74d-0a13-400d-845d-8def3c5c19c9:
+    uuid: 9996d74d-0a13-400d-845d-8def3c5c19c9
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  f635283e-f0ce-491d-aec2-a0b75129d8fb:
+    uuid: f635283e-f0ce-491d-aec2-a0b75129d8fb
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 316
+      height: 286
+      anchor: center-center

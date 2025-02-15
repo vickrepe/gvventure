@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - gvventure
-id: gvventure_breadcrumbs
-theme: gvventure
+    - gvventure_barrio
+id: gvventure_barrio_breadcrumbs
+theme: gvventure_barrio
 region: breadcrumb
 weight: 0
 provider: null

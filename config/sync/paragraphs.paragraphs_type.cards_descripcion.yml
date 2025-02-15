@@ -1,0 +1,10 @@
+uuid: 0a0907c8-3407-4d38-96fd-8c3de632d7ad
+langcode: es
+status: true
+dependencies: {  }
+id: cards_descripcion
+label: 'Cards con descripción'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

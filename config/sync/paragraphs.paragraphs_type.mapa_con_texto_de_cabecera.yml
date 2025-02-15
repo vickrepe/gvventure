@@ -1,0 +1,10 @@
+uuid: 6d2d3e1b-974b-42fb-b705-0acfd3a1ffab
+langcode: es
+status: true
+dependencies: {  }
+id: mapa_con_texto_de_cabecera
+label: 'Mapa con texto de cabecera'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

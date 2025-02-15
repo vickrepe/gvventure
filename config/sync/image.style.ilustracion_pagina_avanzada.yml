@@ -1,0 +1,15 @@
+uuid: 01aeab0e-c8cf-41cf-a47d-0a0437989781
+langcode: es
+status: true
+dependencies: {  }
+name: ilustracion_pagina_avanzada
+label: 'Ilustración pagina avanzada'
+effects:
+  ef910807-b69b-4fa1-be73-55da93849b54:
+    uuid: ef910807-b69b-4fa1-be73-55da93849b54
+    id: image_scale
+    weight: 1
+    data:
+      width: 500
+      height: 500
+      upscale: false

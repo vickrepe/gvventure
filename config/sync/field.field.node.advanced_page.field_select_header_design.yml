@@ -1,0 +1,23 @@
+uuid: c3748ed0-dbd4-479b-82bc-72dcf4135805
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_select_header_design
+    - node.type.advanced_page
+  module:
+    - options
+id: node.advanced_page.field_select_header_design
+field_name: field_select_header_design
+entity_type: node
+bundle: advanced_page
+label: 'Select header design '
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: long
+default_value_callback: ''
+settings: {  }
+field_type: list_string

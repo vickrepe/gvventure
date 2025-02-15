@@ -1,0 +1,10 @@
+uuid: 298dfb21-0d43-47b9-b86f-609a3314d752
+langcode: es
+status: true
+dependencies: {  }
+id: texo_info_con_modal
+label: 'Texto info con modal'
+icon_uuid: null
+icon_default: null
+description: 'Texto de un servicio incluido en un paquete con la posibilidad de mostrar un modal con más info (texto e imagen).'
+behavior_plugins: {  }

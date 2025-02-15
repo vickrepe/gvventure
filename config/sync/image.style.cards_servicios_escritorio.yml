@@ -1,0 +1,21 @@
+uuid: 9a7e9c83-b61c-4a26-ba05-d48539f97a68
+langcode: es
+status: true
+dependencies: {  }
+name: cards_servicios_escritorio
+label: 'Cards servicios escritorio'
+effects:
+  debaa2fc-da9a-48f0-930a-635ee63c3871:
+    uuid: debaa2fc-da9a-48f0-930a-635ee63c3871
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  7a34f1a8-0073-421e-8a9b-7831e3de669a:
+    uuid: 7a34f1a8-0073-421e-8a9b-7831e3de669a
+    id: image_scale_and_crop
+    weight: 3
+    data:
+      width: 299
+      height: 180
+      anchor: center-center

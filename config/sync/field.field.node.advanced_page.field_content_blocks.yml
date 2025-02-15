@@ -1,0 +1,132 @@
+uuid: e92db994-6538-4f9a-ad5d-7c4e78b8041d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_blocks
+    - node.type.advanced_page
+    - paragraphs.paragraphs_type.block_background_image
+    - paragraphs.paragraphs_type.cards_descripcion
+    - paragraphs.paragraphs_type.dos_columnas_informacion_imagen
+    - paragraphs.paragraphs_type.formulario_imagen
+    - paragraphs.paragraphs_type.icono
+    - paragraphs.paragraphs_type.icono_y_texto
+    - paragraphs.paragraphs_type.iconos_con_descripcion_larga
+    - paragraphs.paragraphs_type.iconos_descripcion
+    - paragraphs.paragraphs_type.ilustracion_y_texto
+    - paragraphs.paragraphs_type.label_title_texto_two_links
+    - paragraphs.paragraphs_type.paquetes_de_productos
+    - paragraphs.paragraphs_type.pg_block_view
+    - paragraphs.paragraphs_type.preguntas_frecuentes
+    - paragraphs.paragraphs_type.productos_individuales
+    - paragraphs.paragraphs_type.solicitar_info
+    - paragraphs.paragraphs_type.texto_avanzado
+    - paragraphs.paragraphs_type.titulo_con_texto_imagen_link
+  module:
+    - entity_reference_revisions
+id: node.advanced_page.field_content_blocks
+field_name: field_content_blocks
+entity_type: node
+bundle: advanced_page
+label: 'Bloques de contenido'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      ilustracion_y_texto: ilustracion_y_texto
+      iconos_descripcion: iconos_descripcion
+      icono: icono
+      icono_y_texto: icono_y_texto
+      titulo_con_texto_imagen_link: titulo_con_texto_imagen_link
+      iconos_con_descripcion_larga: iconos_con_descripcion_larga
+      cards_descripcion: cards_descripcion
+      block_background_image: block_background_image
+      paquetes_de_productos: paquetes_de_productos
+      preguntas_frecuentes: preguntas_frecuentes
+      solicitar_info: solicitar_info
+      dos_columnas_informacion_imagen: dos_columnas_informacion_imagen
+      formulario_imagen: formulario_imagen
+      productos_individuales: productos_individuales
+      pg_block_view: pg_block_view
+      label_title_texto_two_links: label_title_texto_two_links
+      texto_avanzado: texto_avanzado
+    negate: 0
+    target_bundles_drag_drop:
+      block_background_image:
+        weight: 18
+        enabled: true
+      bloque_de_texto:
+        weight: 26
+        enabled: false
+      card_servicios:
+        weight: 17
+        enabled: false
+      cards_descripcion:
+        weight: 16
+        enabled: true
+      contacto_traslados:
+        weight: 9
+        enabled: false
+      dos_columnas_informacion_imagen:
+        weight: 25
+        enabled: true
+      formulario_imagen:
+        weight: 27
+        enabled: true
+      icono:
+        weight: -8
+        enabled: true
+      icono_y_texto:
+        weight: 7
+        enabled: true
+      icono_y_texto_largo:
+        weight: 16
+        enabled: false
+      iconos_con_descripcion_larga:
+        weight: 11
+        enabled: true
+      iconos_descripcion:
+        weight: -10
+        enabled: true
+      ilustracion_y_texto:
+        weight: -11
+        enabled: true
+      label_title_texto_two_links:
+        weight: 35
+        enabled: true
+      mapa_con_texto_de_cabecera:
+        weight: 25
+        enabled: false
+      paquetes_de_productos:
+        weight: 18
+        enabled: true
+      pg_block_view:
+        weight: 31
+        enabled: true
+      preguntas_frecuentes:
+        weight: 20
+        enabled: true
+      productos_individuales:
+        weight: 29
+        enabled: true
+      solicitar_info:
+        weight: 22
+        enabled: true
+      texo_info_con_modal:
+        weight: 15
+        enabled: false
+      texto_avanzado:
+        weight: 46
+        enabled: true
+      titulo_con_texto_imagen_link:
+        weight: 10
+        enabled: true
+      titulo_texto_imagen:
+        weight: 40
+        enabled: false
+field_type: entity_reference_revisions

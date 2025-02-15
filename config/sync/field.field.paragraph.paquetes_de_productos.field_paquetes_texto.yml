@@ -1,0 +1,22 @@
+uuid: 648759fb-531c-4355-8608-12faa268ce9d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paquetes_texto
+    - paragraphs.paragraphs_type.paquetes_de_productos
+  module:
+    - text
+id: paragraph.paquetes_de_productos.field_paquetes_texto
+field_name: field_paquetes_texto
+entity_type: paragraph
+bundle: paquetes_de_productos
+label: Texto
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

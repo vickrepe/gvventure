@@ -1,0 +1,21 @@
+uuid: beaa78e1-ebb5-47db-9171-2175fbc21e50
+langcode: es
+status: true
+dependencies: {  }
+name: bloque_blog_general_lg
+label: 'Bloque blog general lg'
+effects:
+  5e7dbe67-6eb2-4f38-beab-402b77bbc691:
+    uuid: 5e7dbe67-6eb2-4f38-beab-402b77bbc691
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  31ae3937-cb56-4cc3-9c48-4c45a8f1278b:
+    uuid: 31ae3937-cb56-4cc3-9c48-4c45a8f1278b
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 288
+      height: 182
+      anchor: center-center

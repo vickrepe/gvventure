@@ -1,0 +1,23 @@
+uuid: dc0de500-cee0-4c33-a38e-25175b918134
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dos_columnas_enlace
+    - paragraphs.paragraphs_type.dos_columnas_informacion_imagen
+  module:
+    - link
+id: paragraph.dos_columnas_informacion_imagen.field_dos_columnas_enlace
+field_name: field_dos_columnas_enlace
+entity_type: paragraph
+bundle: dos_columnas_informacion_imagen
+label: Enlace
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

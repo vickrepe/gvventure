@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - gvventure
-id: gvventure_account_menu
-theme: gvventure
+    - gvventure_barrio
+id: gvventure_barrio_account_menu
+theme: gvventure_barrio
 region: secondary_menu
 weight: -7
 provider: null

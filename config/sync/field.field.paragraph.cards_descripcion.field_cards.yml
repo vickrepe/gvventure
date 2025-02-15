@@ -1,0 +1,94 @@
+uuid: 9c85230d-2dba-4f77-b9da-388f78ac28d6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cards
+    - paragraphs.paragraphs_type.card_servicios
+    - paragraphs.paragraphs_type.cards_descripcion
+  module:
+    - entity_reference_revisions
+id: paragraph.cards_descripcion.field_cards
+field_name: field_cards
+entity_type: paragraph
+bundle: cards_descripcion
+label: Cards
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      card_servicios: card_servicios
+    negate: 0
+    target_bundles_drag_drop:
+      block_background_image:
+        weight: 23
+        enabled: false
+      card_servicios:
+        weight: 17
+        enabled: true
+      cards_descripcion:
+        weight: 16
+        enabled: false
+      contacto_traslados:
+        weight: 18
+        enabled: false
+      dos_columnas_informacion_imagen:
+        weight: 27
+        enabled: false
+      formulario_imagen:
+        weight: 28
+        enabled: false
+      icono:
+        weight: 19
+        enabled: false
+      icono_y_texto:
+        weight: 22
+        enabled: false
+      icono_y_texto_largo:
+        weight: 23
+        enabled: false
+      iconos_con_descripcion_larga:
+        weight: 20
+        enabled: false
+      iconos_descripcion:
+        weight: 21
+        enabled: false
+      ilustracion_y_texto:
+        weight: 24
+        enabled: false
+      label_title_texto_two_links:
+        weight: 35
+        enabled: false
+      mapa_con_texto_de_cabecera:
+        weight: 25
+        enabled: false
+      paquetes_de_productos:
+        weight: 26
+        enabled: false
+      pg_block_view:
+        weight: 38
+        enabled: false
+      preguntas_frecuentes:
+        weight: 27
+        enabled: false
+      productos_individuales:
+        weight: 40
+        enabled: false
+      solicitar_info:
+        weight: 28
+        enabled: false
+      texo_info_con_modal:
+        weight: 29
+        enabled: false
+      titulo_con_texto_imagen_link:
+        weight: 30
+        enabled: false
+      titulo_texto_imagen:
+        weight: 44
+        enabled: false
+field_type: entity_reference_revisions

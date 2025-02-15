@@ -1,0 +1,9 @@
+uuid: d4dc0649-722b-4a48-8403-cd1627789049
+langcode: es
+status: true
+dependencies: {  }
+name: 'Tipo de paquete'
+vid: tipo_servicio
+description: null
+weight: 0
+new_revision: false

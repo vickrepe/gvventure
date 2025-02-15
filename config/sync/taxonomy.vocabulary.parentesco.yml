@@ -1,0 +1,9 @@
+uuid: f3a0db87-25b2-489e-a26b-0ae06bd153fa
+langcode: es
+status: true
+dependencies: {  }
+name: Parentesco
+vid: parentesco
+description: null
+weight: 0
+new_revision: false
